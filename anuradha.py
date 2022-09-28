@@ -37,10 +37,12 @@ while True:
             engine.say(now.strftime("The time is %H:%M"))
             engine.runAndWait()
         elif message == 'browser':
-            webbrowser.open('www.youtube.com')
+            webbrowser.open('https://www.youtube.com')
+            engine.say("Opening browser")
+            engine.runAndWait()
         elif message == 'dinosaur':
-            print(wikipedia.summary(message))
-            engine.say(wikipedia.summary(message))
+            print(wikipedia.summary(message, sentences=3))
+            engine.say(wikipedia.summary(message, sentences=3))
             engine.runAndWait()
         # userInput3 = input("or else search in google")
         # webbrowser.open_new('www.google.com/search?q=' + userInput3)
