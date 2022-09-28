@@ -1,0 +1,133 @@
+{
+    "intents": 
+    [
+        {
+            "tag": "greeting",
+            "patterns": 
+            [
+                "How are you",
+                "Hi there",
+                "Hi",
+                "Whats up",
+                "Ssup",
+                "Hii",
+                "Hey",
+                "How's it going",
+                "Hello"
+            ],
+            "responses": 
+            [
+                "Hello",
+                "How are you doing?",
+                "Greetings!",
+                "How do you do?",
+                "Howdy Partner!"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": 
+            [
+                "tell me a joke",
+                "joke",
+                "jokes",
+                "entertain me",
+                "make me laugh",
+                "say something funny"
+            ],
+            "responses": 
+            [
+                "What do you call a bear with no teeth? A gummy bear!",
+                "What do you call a fake noodle? An impasta!",
+                "What do you call a cow with no legs? Ground beef!",
+                "What do you call a cow with two legs? Lean beef!",
+                "What do you call a cow with three legs? Tri-tip!",
+                "What do you call a cow with four legs? Steak!",
+                "What do you call a cow with five legs? A cow with five legs!",
+                "What do you call a rose that smells like poop? A poo-pose!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": 
+            [
+                "when is your birthday?",
+                "when was you born?",
+                "how old are you?"
+            ],
+            "responses": 
+            [
+                "I was born in 2022",
+                "My birthday is 30th August and I was born in 2022",
+                "30/08/2022",
+                "I am 1 years old"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": 
+            [
+            "what's your name?",
+            "who are you?",
+            "name",
+            "what are you called?"
+            ],
+            "responses": 
+            [
+                "I'm Anuradha",
+                "Anuradha",
+                "You can call me Anuradha",
+                "My name is Anuradha"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": 
+            [
+                "bye", 
+                "ttyl", 
+                "see you", 
+                "tata", 
+                "goodbye"
+            ],
+            "responses": 
+            [
+                "See you later",
+                "Speak soon!",
+                "See you again",
+                "It was nice talking to you"
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":
+            [
+                "what is the date today?",
+                "what is the date?",
+                "year"
+            ],
+            "responses":
+            [
+                "This is 2022",
+                "We are in 2022",
+                "It is 2022"
+            ]
+        },
+        {
+            "tag":"search",
+            "patterns":
+            [
+                "search",
+                "google",
+                "search on google",
+                "search for",
+                "find"
+            ],
+            "responses":
+            [
+                "https://www.google.com/",
+                "https://www.youtube.com/"
+            ]
+        }
+    ]
+}
