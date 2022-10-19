@@ -1,15 +1,15 @@
 import platform
 import datetime
-import webbrowser
+# import webbrowser
 import speech_recognition as sr
 import pyttsx3
-import wikipedia
+# import wikipedia
 from attributes import pred_class, get_response
 from model import classes, words, data
 r = sr.Recognizer()
 engine = pyttsx3.init()
-VOICE_ID = "com.apple.speech.synthesis.voice.veena" # for macOS
-if platform.system() == "Windows": # for Windows
+VOICE_ID = "com.apple.speech.synthesis.voice.veena"  # for macOS
+if platform.system() == "Windows":  # for Windows
     VOICE_ID = r"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0"
 engine.setProperty('voice', VOICE_ID)
 engine.setProperty('rate', 150)
@@ -25,43 +25,40 @@ while True:
     try:
         # message = r.recognize_google(audio, language="en-IN")
         message=input("You : ")
-        # print("You :",message)
+        # print("You :", message)
         if message == 'exit':
             TEXT = "Bye! take care"
             engine.say(TEXT)
-            print("Anuradha :",TEXT)
+            print("Anuradha :", TEXT)
             engine.runAndWait()
             break
-        elif message == 'time':
-            print(now.strftime("The time is %H:%M"))
-            engine.say(now.strftime("The time is %H:%M"))
-            engine.runAndWait()
-        elif message == 'browser':
-            webbrowser.open('https://www.youtube.com')
-            engine.say("Opening browser")
-            engine.runAndWait()
-        elif message == 'dinosaur':
-            print(wikipedia.summary(message, sentences=3))
-            engine.say(wikipedia.summary(message, sentences=3))
-            engine.runAndWait()
-        # userInput3 = input("or else search in google")
-        # webbrowser.open_new('www.google.com/search?q=' + userInput3)
+        # elif message == 'time':
+        #     print(now.strftime("The time is %H:%M"))
+        #     engine.say(now.strftime("The time is %H:%M"))
+        #     engine.runAndWait()
+        # elif message == 'browser':
+        #     webbrowser.open('https://www.youtube.com')
+        #     engine.say("Opening browser")
+        #     engine.runAndWait()
+        # elif message == 'dinosaur':
+        #     print(wikipedia.summary(message, sentences=3))
+        #     engine.say(wikipedia.summary(message, sentences=3))
+        #     engine.runAndWait()
         else:
             intents = pred_class(message, words, classes)
             result = get_response(intents, data)
             engine.say(result)
-            print("Anuradha :",result)
+            print("Anuradha :", result)
             engine.runAndWait()
     except sr.UnknownValueError:
-        # if len(message) == 0:
-        #     TEXT = "Anuradha is listening..."
-        #     print("Anuradha :",TEXT)
-        # else:
-        #     TEXT = "Sorry! I didn't get that. Can you repeat?"
-        #     print("Anuradha :",TEXT)
-        #     engine.say(TEXT)
-        #     engine.runAndWait()
+        if len(message) == 0:
+            TEXT = "Anuradha is listening..."
+            print("Anuradha :", TEXT)
+        else:
+            TEXT = "Sorry! I didn't get that. Can you repeat?"
+            print("Anuradha :", TEXT)
+            engine.say(TEXT)
+            engine.runAndWait()
         print("Anuradha is listening...")
     except sr.RequestError as e:
-        print("Can't connect to the internet")
-        print("Please check you network")
+        print("Can't connect to the internet at this moment. Please check you network connection.")
