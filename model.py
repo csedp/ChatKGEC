@@ -11,7 +11,7 @@ from nltk.stem import WordNetLemmatizer
 import numpy as np
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
-data = json.loads(open("intents.json", "rb").read())
+data = json.loads(open("dataset/intents.json", "rb").read())
 
 '''
 nltk.download("punkt")

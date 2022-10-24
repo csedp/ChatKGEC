@@ -1,23 +1,23 @@
-import platform
-import datetime
+# import platform
+# import datetime
 # import webbrowser
-import speech_recognition as sr
-import pyttsx3
+# import speech_recognition as sr
+# import pyttsx3
 # import wikipedia
 from attributes import pred_class, get_response
 from model import classes, words, data
-r = sr.Recognizer()
-engine = pyttsx3.init()
-VOICE_ID = "com.apple.speech.synthesis.voice.veena"  # for macOS
-if platform.system() == "Windows":  # for Windows
-    VOICE_ID = r"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0"
-engine.setProperty('voice', VOICE_ID)
-engine.setProperty('rate', 150)
-engine.setProperty('volume', 0.7)
+# r = sr.Recognizer()
+# engine = pyttsx3.init()
+# VOICE_ID = "com.apple.speech.synthesis.voice.veena"  # for macOS
+# if platform.system() == "Windows":  # for Windows
+#     VOICE_ID = r"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0"
+# engine.setProperty('voice', VOICE_ID)
+# engine.setProperty('rate', 150)
+# engine.setProperty('volume', 0.7)
 print("Anuradha is ready to chat! (say 'exit' to quit)")
 
 while True:
-    now = datetime.datetime.now()
+    # now = datetime.datetime.now()
     # with sr.Microphone() as source:
     #     r.adjust_for_ambient_noise(source)
     #     r.dynamic_energy_threshold = True
@@ -28,9 +28,9 @@ while True:
         # print("You :", message)
         if message == 'exit':
             TEXT = "Bye! take care"
-            engine.say(TEXT)
+            # engine.say(TEXT)
             print("Anuradha :", TEXT)
-            engine.runAndWait()
+            # engine.runAndWait()
             break
         # elif message == 'time':
         #     print(now.strftime("The time is %H:%M"))
@@ -47,18 +47,23 @@ while True:
         else:
             intents = pred_class(message, words, classes)
             result = get_response(intents, data)
-            engine.say(result)
+            # engine.say(result)
             print("Anuradha :", result)
-            engine.runAndWait()
-    except sr.UnknownValueError:
-        if len(message) == 0:
-            TEXT = "Anuradha is listening..."
-            print("Anuradha :", TEXT)
-        else:
-            TEXT = "Sorry! I didn't get that. Can you repeat?"
-            print("Anuradha :", TEXT)
-            engine.say(TEXT)
-            engine.runAndWait()
-        print("Anuradha is listening...")
-    except sr.RequestError as e:
-        print("Can't connect to the internet at this moment. Please check you network connection.")
+            # engine.runAndWait()
+    except:
+        TEXT = "Sorry, I didn't get that"
+        # engine.say(TEXT)
+        print("Anuradha :", TEXT)
+        # engine.runAndWait()
+    # except sr.UnknownValueError:
+    #     if len(message) == 0:
+    #         TEXT = "Anuradha is listening..."
+    #         print("Anuradha :", TEXT)
+    #     else:
+    #         TEXT = "Sorry! I didn't get that. Can you repeat?"
+    #         print("Anuradha :", TEXT)
+    #         # engine.say(TEXT)
+    #         # engine.runAndWait()
+    #     print("Anuradha is listening...")
+    # except sr.RequestError as e:
+    #     print("Can't connect to the internet at this moment. Please check you network connection.")
