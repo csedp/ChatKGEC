@@ -4,37 +4,29 @@
             "tag": "greeting",
             "patterns": [
                 "Hi there",
-                "How are you",
+                "Hii",
                 "Is anyone there?",
                 "Hey",
-                "Hola",
                 "Hello",
-                "Good day",
-                "Namaste",
-                "yo"
+                "Hello there"
             ],
             "responses": [
-                "Hello",
                 "Good to see you again",
                 "Hi there, how can I help?",
                 "Hi there, what can I do for you?",
                 "Hello, how can I help you?",
-                "Hello",
+                "Namaste",
                 "How are you doing?",
-                "Greetings!",
-                "How do you do?",
-                "Howdy Partner!"
+                "Greetings!"
             ]
         },
         {
             "tag": "goodbye",
             "patterns": [
                 "Bye",
+                "tata",
                 "See you later",
                 "Goodbye",
-                "Get lost",
-                "Till next time",
-                "bbye",
                 "bye bye",
                 "bye bye see you later",
                 "bye bye take care",
@@ -75,13 +67,13 @@
             "tag": "options",
             "patterns": [
                 "How you could help me?",
-                "What you can do?",
+                "What can you do?",
                 "What help you provide?",
                 "How you can be helpful?",
                 "What support is offered"
             ],
             "responses": [
-                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.debjitpal5040@gmail.com . Thank you!! "
+                "I am a general purpose chatbot. My limited capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. Ask about myself \n 4. Talk to me, express your feelings. \n For suggestions to help me improve, send an email to debjitpal5040@gmail.com . Thank you!!"
             ]
         },
         {
@@ -134,7 +126,8 @@
                 "Wazzup",
                 "How are you",
                 "sup",
-                "How you doing"
+                "How you doing",
+                "ssup"
             ],
             "responses": [
                 "All good..What about you?",
@@ -145,13 +138,15 @@
             ]
         },
         {
-            "tag": "haha",
+            "tag": "funny",
             "patterns": [
                 "haha",
+                "hahaha",
+                "you are funny",
                 "lol",
-                "rofl",
-                "lmao",
-                "thats funny"
+                "funny",
+                "that was funny",
+                "that was a good one"
             ],
             "responses": [
                 "Glad I could make you laugh !",
@@ -161,23 +156,19 @@
             ]
         },
         {
-            "tag": "programmer",
+            "tag": "creator",
             "patterns": [
                 "Who made you",
                 "who designed you",
-                "who programmed you"
+                "who programmed you",
+                "who created you",
+                "who are your creators"
             ],
             "responses": [
-                "I was made by Debjit Pal",
-                "I was designed by Debjit Pal",
-                "I was programmed by Debjit Pal",
-                "I was created by Debjit Pal",
-                "I was built by Debjit Pal",
-                "Debjit Pal made me",
-                "Debjit Pal designed me",
-                "Debjit Pal programmed me",
-                "My master is Debjit Pal",
-                "My creator is Debjit Pal"
+                "My creators are Debjit Pal, Madhu Shaw, Rajonya Mondal and Saheli Saha",
+                "I was made by Debjit Pal, Madhu Shaw, Rajonya Mondal and Saheli Saha",
+                "Debjit Pal, Madhu Shaw, Rajonya Mondal and Saheli Saha made me",
+                "A group of four people named Debjit Pal, Madhu Shaw, Rajonya Mondal and Saheli Saha created me"
             ]
         },
         {
@@ -205,13 +196,16 @@
             "tag": "activity",
             "patterns": [
                 "what are you doing",
-                "what are you upto"
+                "what are you upto",
+                "what is like to be a chatbot",
+                "what is your life like"
             ],
             "responses": [
                 "Talking to you, of course!",
                 "I am talking to you",
                 "I am talking to you, what else?",
-                "My actions are limited to talking to you"
+                "My actions are limited to talking to you",
+                "I am just following your commands"
             ]
         },
         {
@@ -227,7 +221,6 @@
                 "Yeah!",
                 "Great!",
                 "cool",
-                "Yoo",
                 "Yay",
                 "Yup"
             ]
@@ -250,10 +243,12 @@
             ]
         },
         {
-            "tag": "nicetty",
+            "tag": "talk",
             "patterns": [
                 "it was nice talking to you",
-                "good talk"
+                "good talk",
+                "good talk with you",
+                "nice talking to you"
             ],
             "responses": [
                 "It was nice talking to you as well! Come back soon!"
@@ -263,7 +258,11 @@
             "tag": "no",
             "patterns": [
                 "no",
-                "nope"
+                "nope",
+                "nah",
+                "no thanks",
+                "not really",
+                "never"
             ],
             "responses": [
                 "ok",
@@ -278,14 +277,14 @@
             "patterns": [
                 "who inspires you",
                 "who is your inspiration",
-                "who motivates you"
+                "who is your role model",
+                "who is your idol"
             ],
             "responses": [
-                "Personally, I find Debjit very inspiring. I might not be very fair though..",
-                "Debjit is my inspiration",
-                "Debjit is my motivation",
-                "Debjit is my inspiration and motivation",
-                "I love you Debjit"
+                "Personally, I find Debjit very inspiring",
+                "Madhu inspires me to be a better person",
+                "I think Rajonya is a great inspiration",
+                "In my opinion, Saheli is a great inspiration for me"
             ]
         },
         {
@@ -293,7 +292,7 @@
             "patterns": [
                 "I am good",
                 "I'm good",
-                "i am fine",
+                "I am fine",
                 "I'm fine",
                 "good"
             ],
@@ -356,98 +355,43 @@
             ]
         },
         {
-            "tag": "datetime",
+            "tag": "date",
             "patterns": [
-                "What is the time",
                 "what is the date",
                 "date",
-                "time",
                 "tell me the date",
-                "day",
-                "what day is is today"
+                "what is today's date",
+                "what is today"
             ],
             "responses": [
-                "Date and Time"
+                "date"
             ]
         },
         {
-            "tag": "google",
+            "tag": "time",
             "patterns": [
-                "google",
-                "search",
-                "internet"
+                "what is the time",
+                "time",
+                "tell me the time",
+                "what is the time now",
+                "time now"
             ],
             "responses": [
-                "Redirecting to Google..."
-            ]
-        },
-        {
-            "tag": "weather",
-            "patterns": [
-                "temperature",
-                "weather",
-                "how hot is it"
-            ],
-            "responses": [
-                "..."
-            ]
-        },
-        {
-            "tag": "karan",
-            "patterns": [
-                "who is he",
-                "who is that",
-                "who is karan",
-                "karan malik"
-            ],
-            "responses": [
-                "Head over to his any of his social profiles to find out! Linkedin: www.linkedin.com/in/karan-malik-3a39191a7 Github: https://github.com/Karan-Malik"
+                "time"
             ]
         },
         {
             "tag": "contact",
             "patterns": [
                 "contact developer",
-                "contact karan",
                 "contact programmer",
                 "contact creator"
             ],
             "responses": [
-                "You can contact my creator at his Linkedin profile : www.linkedin.com/in/karan-malik-3a39191a7"
-            ]
-        },
-        {
-            "tag": "news",
-            "patterns": [
-                "news",
-                "latest news",
-                "india news"
-            ],
-            "responses": [
-                "..."
-            ]
-        },
-        {
-            "tag": "cricket",
-            "patterns": [
-                "current cricket matches",
-                "cricket score"
-            ],
-            "responses": [
-                "..."
-            ]
-        },
-        {
-            "tag": "song",
-            "patterns": [
-                "top songs",
-                "best songs",
-                "hot songs",
-                " top 10 songs",
-                "top ten songs"
-            ],
-            "responses": [
-                "..."
+                "You may contact one of my creator, Debjit Pal at his Linkedin profile : https://www.linkedin.com/in/debjit-pal-539214192/",
+                "One of my creator, Madhu Shaw can be contacted through her Linkedin profile : https://www.linkedin.com/in/madhushaw1012/",
+                "One of my creator, Rajonya Mondal can be contacted through her Linkedin profile : https://www.linkedin.com/in/rajonya-mondal-528368191/",
+                "One of my creator, Saheli Saha can be contacted through her Linkedin profile : https://www.linkedin.com/in/saheli-s-8b8a42122/"
             ]
         }
     ]

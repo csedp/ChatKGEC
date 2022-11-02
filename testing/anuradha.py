@@ -50,7 +50,7 @@ while True:
             # engine.say(result)
             print("Anuradha :", result)
             # engine.runAndWait()
-    except:
+    except ValueError:
         TEXT = "Sorry, I didn't get that"
         # engine.say(TEXT)
         print("Anuradha :", TEXT)
