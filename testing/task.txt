@@ -3,3 +3,37 @@
 6. I can get you the top 10 trending songs globally. Type 'songs' \n 
 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 
 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n 
+
+'''
+Lemmatization is the process of grouping together the different
+inflected forms of a word so they can be analyzed as a single item.
+Lemmatization is similar to stemming but it brings context to the words.
+So it links words with similar meanings to one word.
+Stemming is the process of producing morphological variants of a root/base word.
+
+Tokenizers divide strings into lists of substrings.
+For example, tokenizers can be used to find the words and punctuation in a string:
+'''
+
+
+
+sequence of commands
+
+Hello there
+Who are you
+What can you do?
+How are you
+I'm good
+who created you
+how old are you
+Make me laugh
+that was funny
+Ask me a riddle
+you are great
+who is your inspiration
+Thank you
+what is today's date
+what is the time now
+contact your creator
+Goodbye
+exit

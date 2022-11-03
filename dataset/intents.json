@@ -73,7 +73,7 @@
                 "What support is offered"
             ],
             "responses": [
-                "I am a general purpose chatbot. My limited capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. Ask about myself \n 4. Talk to me, express your feelings. \n For suggestions to help me improve, send an email to debjitpal5040@gmail.com . Thank you!!"
+                "I am a general purpose chatbot. My limited capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. Talk to me, express your feelings. \n Thank you!!"
             ]
         },
         {
@@ -100,7 +100,7 @@
             ]
         },
         {
-            "tag": "Identity",
+            "tag": "identity",
             "patterns": [
                 "Who are you",
                 "what are you",
