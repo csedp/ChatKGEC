@@ -410,8 +410,118 @@
                 "The specialisations for Engineering courses in KGEC are Computer Science and Engineering, Information Technology, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering.",
                 "The specialisations for Engineering courses in KGEC are Computer Science and Engineering, Information Technology, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering."
             ]
-        }
-       {
+        },
+        {
+            "tag": "courses-undergraduate",
+            "patterns": [
+                "What are the undergraduate courses offered in KGEC",
+                "Which are the different undergraduate courses offered in KGEC",
+                "Which are the different undergraduate courses in KGEC",
+                "What are the undergraduate degree courses offered in KGEC",
+                "What are the undergraduate specialisations in Engineering offered in KGEC"
+            ],
+            "responses": [
+                "Undergraduate courses are offered in KGEC in the field of Engineering. In undergraduate couses KGEC offers B.Tech degree only.",
+                "Only B.Tech degree is offered in KGEC in the field of Engineering as an undergraduate course.",
+                "In undergraduate courses KGEC offers B.Tech degree only."
+            ]
+        },
+        {
+            "tag": "courses-postgraduate",
+            "patterns": [
+                "What are the postgraduate courses offered in KGEC",
+                "Which are the different postgraduate courses offered in KGEC",
+                "Which are the different postgraduate courses in KGEC",
+                "What are the postgraduate degree courses offered in KGEC",
+                "What are the postgraduate specialisations in Engineering offered in KGEC"
+            ],
+            "responses": [
+                "Postgraduate courses are offered in KGEC in the field of Engineering. In postgraduate couses KGEC offers M.Tech and MCA degree only.",
+                "Only M.Tech and MCA degree is offered in KGEC in the field of Engineering as a postgraduate course.",
+                "In postgraduate courses KGEC offers M.Tech and MCA degree only."
+            ]
+        },
+        {
+            "tag": "fees-cse",
+            "patterns": [
+                "What is the fee structure for B.Tech CSE in KGEC",
+                "How much is the fee for B.Tech CSE in KGEC",
+                "Fees for B.Tech CSE in KGEC",
+                "Fees of B.Tech CSE",
+                "B.Tech CSE fees in KGEC",
+                "Fees B.Tech Computer Science and Engineering KGEC"
+            ],
+            "responses": [
+                "Fees for B.Tech in Computer Science and Engineering is Rs. 52,155 for the whole 4 years.",
+                "A total sum of Rs. 52,155 is to be paid for the whole 4 years course of B.Tech in Computer Science and Engineering.",
+                "You need to pay Rs. 52,155 for the whole 4 years of B.Tech in Computer Science and Engineering."
+            ]
+        },
+        {
+            "tag": "fees-ece",
+            "patterns": [
+                "What is the fee structure for B.Tech ECE in KGEC",
+                "How much is the fee for B.Tech ECE in KGEC",
+                "Fees for B.Tech ECE in KGEC",
+                "Fees of B.Tech ECE",
+                "B.Tech ECE fees in KGEC",
+                "Fees B.Tech Electronics and Communication Engineering KGEC"
+            ],
+            "responses": [
+                "Fees for B.Tech in Electronics and Communication Engineering is Rs. 52,155 for the whole 4 years.",
+                "A total sum of Rs. 52,155 is to be paid for the whole 4 years course of B.Tech in Electronics and Communication Engineering.",
+                "You need to pay Rs. 52,155 for the whole 4 years of B.Tech in Electronics and Communication Engineering."
+            ]
+        },
+        {
+            "tag": "fees-ee",
+            "patterns": [
+                "What is the fee structure for B.Tech EE in KGEC",
+                "How much is the fee for B.Tech EE in KGEC",
+                "Fees for B.Tech EE in KGEC",
+                "Fees of B.Tech EE",
+                "B.Tech EE fees in KGEC",
+                "Fees B.Tech Electrical Engineering KGEC"
+            ],
+            "responses": [
+                "Fees for B.Tech in Electrical Engineering is Rs. 27,655 for the whole 4 years.",
+                "A total sum of Rs. 27,655 is to be paid for the whole 4 years course of B.Tech in Electrical Engineering.",
+                "You need to pay Rs. 27,655 for the whole 4 years of B.Tech in Electrical Engineering."
+            ]
+        },
+        {
+            "tag": "fees-me",
+            "patterns": [
+                "what is the fee structure for B.Tech ME in KGEC",
+                "How much is the fee for B.Tech ME in KGEC",
+                "Fees for B.Tech ME in KGEC",
+                "Fees of B.Tech ME",
+                "B.Tech ME fees in KGEC",
+                "Fees B.Tech Mechanical Engineering KGEC"
+            ],
+            "responses": [
+                "Fees for B.Tech in Mechanical Engineering is Rs. 27,655 for the whole 4 years.",
+                "A total sum of Rs. 27,655 is to be paid for the whole 4 years course of B.Tech in Mechanical Engineering.",
+                "You need to pay Rs. 27,655 for the whole 4 years of B.Tech in Mechanical Engineering."
+            ]
+        },
+        {
+            "tag": "fees-it",
+            "patterns": [
+                "What is the fee structure for B.Tech IT in KGEC",
+                "How much is the fee for B.Tech IT in KGEC",
+                "Fees for B.Tech IT in KGEC",
+                "Fees for B.Tech IT",
+                "B.Tech IT fees in KGEC",
+                "Fees B.Tech Information Technology KGEC"
+            ],
+            "responses": [
+                "Fees for B.Tech in Information Technology is Rs. 1,01,155 for the whole 4 years.",
+                "A total sum of Rs. 1,01,155 is to be paid for the whole 4 years course of B.Tech in Information Technology.",
+                "You need to pay Rs. 1,01,155 for the whole 4 years of B.Tech in Information Technology."
+            ]
+        },
+        {
             "tag": "departments",
             "patterns": [
                 "What are the departments in KGEC",
@@ -422,10 +532,8 @@
                 "The Departments in KGEC are Computer Science and Engineering, Information Technology, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering, Physics, Chemistry, Mathematics, Humanities, Computer Applications",
                 "The Departments in KGEC are Computer Science and Engineering, Information Technology, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering, Physics, Chemistry, Mathematics, Humanities, Computer Applications",
                 "The specialisations in KGEC are Computer Science and Engineering, Information Technology, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering, Physics, Chemistry, Mathematics, Humanities, Computer Applications"
-                
             ]
-        }
-        
+        },
         {
             "tag": "HOD of CSE",
             "patterns": [
@@ -437,8 +545,7 @@
             "responses": [
                 "Mr. Koushik Dasgupta sir is the HOD of Computer Science and Engineering Department."
             ]
-            
-        }
+        },
         {
             "tag": "HOD of IT",
             "patterns": [
@@ -450,8 +557,7 @@
             "responses": [
                 "Dr. Malabika Sengupta madam is the HOD of Information Technology Department."
             ]
-            
-        }
+        },
         {
             "tag": "HOD of ECE",
             "patterns": [
@@ -463,8 +569,7 @@
             "responses": [
                 "Prof. Sukla Basu madam is the HOD of Electronics and Communication Engineering Department."
             ]
-            
-        }
+        },
         {
             "tag": "HOD of EE",
             "patterns": [
@@ -476,8 +581,7 @@
             "responses": [
                 "Mr. Shib Sankar Saha sir is the HOD of Electrical Engineering Department."
             ]
-            
-        }
+        },
         {
             "tag": "HOD of ME",
             "patterns": [
@@ -489,8 +593,7 @@
             "responses": [
                 "Mr. Tridibesh Das sir is the HOD of Mechanical Engineering Department."
             ]
-            
-        }
+        },
         {
             "tag": " Staffs of CSE",
             "patterns": [
@@ -501,15 +604,13 @@
                 "Who are the faculties in Computer Science and Engineering Department",
                 "Who are the teaching members in Computer Science and Engineering Department",
                 "Who are the teaching staffs in Computer Science and Engineering Department",
-                "Who are the faculty members in Computer Science and Engineering Department",
-
+                "Who are the faculty members in Computer Science and Engineering Department"
             ],
             "responses": [
                 "Prof. Swapan Kumar Mondal, Dr. Malay Kumar Pakhira, Dr. Kousik Dasguspta, Mr. Supriyo Banerjee, Mrs. Manju Biswas, Dr. Sourav Banerjee, Dr. Anup Kumar Biswas, Mr. Kuntal Bhowmick, Dr. Arindrajit Pal are the faculty members under Computer Science and Engineering Department.",
                 "Faculty or Teaching staffs under the CSE Department are Prof. Swapan Kumar Mondal, Dr. Malay Kumar Pakhira, Dr. Kousik Dasguspta, Mr. Supriyo Banerjee, Mrs. Manju Biswas, Dr. Sourav Banerjee, Dr. Anup Kumar Biswas, Mr. Kuntal Bhowmick, Dr. Arindrajit Pal."
             ]
-            
-        }
+        },
         {
             "tag": " Staffs of IT",
             "patterns": [
@@ -520,15 +621,13 @@
                 "Who are the faculties in Information Technology Department",
                 "Who are the teaching members in Information Technology Department",
                 "Who are the teaching staffs in Information Technology Department",
-                "Who are the faculty members in Information Technology Department",
-
+                "Who are the faculty members in Information Technology Department"
             ],
             "responses": [
                 "Prof(Dr.) Malabika Sengupta, Mr. Partha Sarathi Banerjee, Dr. Satyendra Nath Mondal, Mr. Iqbal Quereshi, Mrs. Manisha Barman, Mr. Debabrata Chowdhury are the faculty members under Information Technology Department.",
                 "Faculty or Teaching staffs under the IT Department are Prof(Dr.) Malabika Sengupta, Mr. Partha Sarathi Banerjee, Dr. Satyendra Nath Mondal, Mr. Iqbal Quereshi, Mrs. Manisha Barman, Mr. Debabrata Chowdhury"
             ]
-            
-        }
+        },
         {
             "tag": " Staffs of ECE",
             "patterns": [
@@ -539,16 +638,12 @@
                 "Who are the faculties in Electronics and Communication Engineering Department",
                 "Who are the teaching members in Electronics and Communication Engineering Department",
                 "Who are the teaching staffs in Electronics and Communication Engineering Department",
-                "Who are the faculty members in Electronics and Communication Engineering Department",
-
+                "Who are the faculty members in Electronics and Communication Engineering Department"
             ],
             "responses": [
                 "Prof.(Dr.) Sukla Basu, Prof. (Dr.) Angsuman Sarkar, Mr. Anup Mallick, Dr. Subhasish Maitra, Dr. Sandip Nandi, Dr. Bandana Barman, Dr. Kabita Purkait, Dr. Himadri Shekhar Dutta, Dwaipayan Ghosh are the faculty members under Electronics and Communication Engineering Department.",
                 "Faculty or Teaching staffs under the ECE Department are Prof.(Dr.) Sukla Basu, Prof. (Dr.) Angsuman Sarkar, Mr. Anup Mallick, Dr. Subhasish Maitra, Dr. Sandip Nandi, Dr. Bandana Barman, Dr. Kabita Purkait, Dr. Himadri Shekhar Dutta, Dwaipayan Ghosh"
             ]
-            
         }
-    
-        
     ]
 }
