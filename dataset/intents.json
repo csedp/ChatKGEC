@@ -395,23 +395,6 @@
             ]
         },
         {
-            "tag": "departments",
-            "patterns": [
-                "What are the departments for Engineering Faculty in KGEC",
-                "Which are the different departments for Engineering Faculty in KGEC",
-                "Which are the different departments in KGEC",
-                "What are the engineering disciplines offered in KGEC",
-                "What are the degree courses offered in KGEC",
-                "What are the specialisations in Engineering offered in KGEC"
-            ],
-            "responses": [
-                "The Departments for Engineering in KGEC are Computer Science and Engineering, Information Technology, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering.",
-                "The Departments for Engineering courses in KGEC are Computer Science and Engineering, Information Technology, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering.",
-                "The specialisations for Engineering courses in KGEC are Computer Science and Engineering, Information Technology, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering.",
-                "The specialisations for Engineering courses in KGEC are Computer Science and Engineering, Information Technology, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering."
-            ]
-        },
-        {
             "tag": "courses-undergraduate",
             "patterns": [
                 "What are the undergraduate courses offered in KGEC",
