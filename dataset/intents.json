@@ -411,5 +411,144 @@
                 "The specialisations for Engineering courses in KGEC are Computer Science and Engineering, Information Technology, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering."
             ]
         }
+       {
+            "tag": "departments",
+            "patterns": [
+                "What are the departments in KGEC",
+                "Which are the different departments in KGEC",
+                "Under which departments the subjects taught are classified in KGEC?"
+            ],
+            "responses": [
+                "The Departments in KGEC are Computer Science and Engineering, Information Technology, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering, Physics, Chemistry, Mathematics, Humanities, Computer Applications",
+                "The Departments in KGEC are Computer Science and Engineering, Information Technology, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering, Physics, Chemistry, Mathematics, Humanities, Computer Applications",
+                "The specialisations in KGEC are Computer Science and Engineering, Information Technology, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering, Physics, Chemistry, Mathematics, Humanities, Computer Applications"
+                
+            ]
+        }
+        
+        {
+            "tag": "HOD of CSE",
+            "patterns": [
+                "Who is the Head of the Department of CSE Department?",
+                "Who is the HOD of the CSE Department?",
+                "Who is the HOD of the Computer Science and Engineering Department?",
+                "Who is the Head of the Department of the Computer Science and Engineering Department?"
+            ],
+            "responses": [
+                "Mr. Koushik Dasgupta sir is the HOD of Computer Science and Engineering Department."
+            ]
+            
+        }
+        {
+            "tag": "HOD of IT",
+            "patterns": [
+                "Who is the Head of the Department of IT Department?",
+                "Who is the HOD of the IT Department?",
+                "Who is the HOD of the Information Technology Department?",
+                "Who is the Head of the Department of the Information Technology Department?"
+            ],
+            "responses": [
+                "Dr. Malabika Sengupta madam is the HOD of Information Technology Department."
+            ]
+            
+        }
+        {
+            "tag": "HOD of ECE",
+            "patterns": [
+                "Who is the Head of the Department of ECE Department?",
+                "Who is the HOD of the ECE Department?",
+                "Who is the HOD of the Electronics and Communication Engineering Department?",
+                "Who is the Head of the Department of the Electronics and Communication Engineering Department?"
+            ],
+            "responses": [
+                "Prof. Sukla Basu madam is the HOD of Electronics and Communication Engineering Department."
+            ]
+            
+        }
+        {
+            "tag": "HOD of EE",
+            "patterns": [
+                "Who is the Head of the Department of EE Department?",
+                "Who is the HOD of the EE Department?",
+                "Who is the HOD of the Electrical Engineering Department?",
+                "Who is the Head of the Department of the Electrical Engineering Department?"
+            ],
+            "responses": [
+                "Mr. Shib Sankar Saha sir is the HOD of Electrical Engineering Department."
+            ]
+            
+        }
+        {
+            "tag": "HOD of ME",
+            "patterns": [
+                "Who is the Head of the Department of ME Department?",
+                "Who is the HOD of the ME Department?",
+                "Who is the HOD of the Mechanical Engineering Department?",
+                "Who is the Head of the Department of the Mechanical Engineering Department?"
+            ],
+            "responses": [
+                "Mr. Tridibesh Das sir is the HOD of Mechanical Engineering Department."
+            ]
+            
+        }
+        {
+            "tag": " Staffs of CSE",
+            "patterns": [
+                "Who are the faculties in CSE Department",
+                "Who are the teaching members in CSE Department",
+                "Who are the teaching staffs in CSE Department",
+                "Who are the faculty members in CSE Department",
+                "Who are the faculties in Computer Science and Engineering Department",
+                "Who are the teaching members in Computer Science and Engineering Department",
+                "Who are the teaching staffs in Computer Science and Engineering Department",
+                "Who are the faculty members in Computer Science and Engineering Department",
+
+            ],
+            "responses": [
+                "Prof. Swapan Kumar Mondal, Dr. Malay Kumar Pakhira, Dr. Kousik Dasguspta, Mr. Supriyo Banerjee, Mrs. Manju Biswas, Dr. Sourav Banerjee, Dr. Anup Kumar Biswas, Mr. Kuntal Bhowmick, Dr. Arindrajit Pal are the faculty members under Computer Science and Engineering Department.",
+                "Faculty or Teaching staffs under the CSE Department are Prof. Swapan Kumar Mondal, Dr. Malay Kumar Pakhira, Dr. Kousik Dasguspta, Mr. Supriyo Banerjee, Mrs. Manju Biswas, Dr. Sourav Banerjee, Dr. Anup Kumar Biswas, Mr. Kuntal Bhowmick, Dr. Arindrajit Pal."
+            ]
+            
+        }
+        {
+            "tag": " Staffs of IT",
+            "patterns": [
+                "Who are the faculties in IT Department",
+                "Who are the teaching members in IT Department",
+                "Who are the teaching staffs in IT Department",
+                "Who are the faculty members in IT Department",
+                "Who are the faculties in Information Technology Department",
+                "Who are the teaching members in Information Technology Department",
+                "Who are the teaching staffs in Information Technology Department",
+                "Who are the faculty members in Information Technology Department",
+
+            ],
+            "responses": [
+                "Prof(Dr.) Malabika Sengupta, Mr. Partha Sarathi Banerjee, Dr. Satyendra Nath Mondal, Mr. Iqbal Quereshi, Mrs. Manisha Barman, Mr. Debabrata Chowdhury are the faculty members under Information Technology Department.",
+                "Faculty or Teaching staffs under the IT Department are Prof(Dr.) Malabika Sengupta, Mr. Partha Sarathi Banerjee, Dr. Satyendra Nath Mondal, Mr. Iqbal Quereshi, Mrs. Manisha Barman, Mr. Debabrata Chowdhury"
+            ]
+            
+        }
+        {
+            "tag": " Staffs of ECE",
+            "patterns": [
+                "Who are the faculties in ECE Department",
+                "Who are the teaching members in ECE Department",
+                "Who are the teaching staffs in ECE Department",
+                "Who are the faculty members in ECE Department",
+                "Who are the faculties in Electronics and Communication Engineering Department",
+                "Who are the teaching members in Electronics and Communication Engineering Department",
+                "Who are the teaching staffs in Electronics and Communication Engineering Department",
+                "Who are the faculty members in Electronics and Communication Engineering Department",
+
+            ],
+            "responses": [
+                "Prof.(Dr.) Sukla Basu, Prof. (Dr.) Angsuman Sarkar, Mr. Anup Mallick, Dr. Subhasish Maitra, Dr. Sandip Nandi, Dr. Bandana Barman, Dr. Kabita Purkait, Dr. Himadri Shekhar Dutta, Dwaipayan Ghosh are the faculty members under Electronics and Communication Engineering Department.",
+                "Faculty or Teaching staffs under the ECE Department are Prof.(Dr.) Sukla Basu, Prof. (Dr.) Angsuman Sarkar, Mr. Anup Mallick, Dr. Subhasish Maitra, Dr. Sandip Nandi, Dr. Bandana Barman, Dr. Kabita Purkait, Dr. Himadri Shekhar Dutta, Dwaipayan Ghosh"
+            ]
+            
+        }
+    
+        
     ]
 }
