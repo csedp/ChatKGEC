@@ -611,22 +611,69 @@
                 "Faculty or Teaching staffs under the IT Department are Prof(Dr.) Malabika Sengupta, Mr. Partha Sarathi Banerjee, Dr. Satyendra Nath Mondal, Mr. Iqbal Quereshi, Mrs. Manisha Barman, Mr. Debabrata Chowdhury"
             ]
         },
-        {
-            "tag": " Staffs of ECE",
-            "patterns": [
-                "Who are the faculties in ECE Department",
-                "Who are the teaching members in ECE Department",
-                "Who are the teaching staffs in ECE Department",
-                "Who are the faculty members in ECE Department",
-                "Who are the faculties in Electronics and Communication Engineering Department",
-                "Who are the teaching members in Electronics and Communication Engineering Department",
-                "Who are the teaching staffs in Electronics and Communication Engineering Department",
-                "Who are the faculty members in Electronics and Communication Engineering Department"
-            ],
-            "responses": [
-                "Prof.(Dr.) Sukla Basu, Prof. (Dr.) Angsuman Sarkar, Mr. Anup Mallick, Dr. Subhasish Maitra, Dr. Sandip Nandi, Dr. Bandana Barman, Dr. Kabita Purkait, Dr. Himadri Shekhar Dutta, Dwaipayan Ghosh are the faculty members under Electronics and Communication Engineering Department.",
-                "Faculty or Teaching staffs under the ECE Department are Prof.(Dr.) Sukla Basu, Prof. (Dr.) Angsuman Sarkar, Mr. Anup Mallick, Dr. Subhasish Maitra, Dr. Sandip Nandi, Dr. Bandana Barman, Dr. Kabita Purkait, Dr. Himadri Shekhar Dutta, Dwaipayan Ghosh"
-            ]
-        }
+      {
+        "tag": " Staffs of ECE",
+        "patterns": [
+          "Who are the faculties in ECE Department",
+          "Who are the teaching members in ECE Department",
+          "Who are the teaching staffs in ECE Department",
+          "Who are the faculty members in ECE Department",
+          "Who are the faculties in Electronics and Communication Engineering Department",
+          "Who are the teaching members in Electronics and Communication Engineering Department",
+          "Who are the teaching staffs in Electronics and Communication Engineering Department",
+          "Who are the faculty members in Electronics and Communication Engineering Department"
+        ],
+        "responses": [
+          "Prof.(Dr.) Sukla Basu, Prof. (Dr.) Angsuman Sarkar, Mr. Anup Mallick, Dr. Subhasish Maitra, Dr. Sandip Nandi, Dr. Bandana Barman, Dr. Kabita Purkait, Dr. Himadri Shekhar Dutta, Dwaipayan Ghosh are the faculty members under Electronics and Communication Engineering Department.",
+          "Faculty or Teaching staffs under the ECE Department are Prof.(Dr.) Sukla Basu, Prof. (Dr.) Angsuman Sarkar, Mr. Anup Mallick, Dr. Subhasish Maitra, Dr. Sandip Nandi, Dr. Bandana Barman, Dr. Kabita Purkait, Dr. Himadri Shekhar Dutta, Dwaipayan Ghosh"
+        ]
+      },
+      {
+        "tag": "Contact",
+        "patterns": [
+          "Where is KGEC located",
+          "How to contact KGEC",
+          "Address of KGEC",
+          "Phone number of KGEC",
+          "Location of KGEC",
+          "Email of KGEC"
+
+
+        ],
+        "responses": [
+          "Our address is Kalyani, Nadia, West Bengal, India, Pin-741235. Please contact us on +91 3325821309 or email us at Contact@Kgec.Edu.In"
+        ]
+      },
+      {
+        "tag": "Training and Placement Cell",
+        "patterns": [
+          "How to contact training and placement cell of KGEC",
+          "How to contact tnp cell of KGEC",
+          "Who is the training and placement officer of KGEC",
+          "Who is placement officer of KGEC",
+          "Phone number of training and placement cell of KGEC",
+          "Email id of training and placement cell of KGEC"
+        ],
+        "responses": [
+          "Prof. Mrinal Kanti Kumar is the placement director of KGEC. You can email TnP Cell of KGEC at tnp_kgec@kgec.edu.in or call at 9433190264 or 3325821309",
+          "The placement director of KGEC is Prof. Mrinal Kanti Kumar. You can email TnP Cell of KGEC at tnp_kgec@kgec.edu.in or call at 9433190264 or 3325821309"
+
+        ]
+
+      },
+      {
+        "tag": "Placement-statistics",
+        "patterns": [
+          "How is the placement in KGEC",
+          "How many students are placed in KGEC",
+          "What percentage of students get placed in KGEC",
+          "What is the placement statistics of KGEC",
+          "Which companies visit KGEC for placement"
+        ],
+        "responses": [
+          "The companies associated with KGEC are TCS, Cognizant, Cummins India, Tech Mahindra, Ericsson, Wipro, M N Dastur, Kreeti Technologies etc. You can check out our placement statistics at http://kgec.edu.in/placementstatics",
+          "Top companies like TCS, Cognizant, Cummins India, Tech Mahindra, Ericsson, Wipro, M N Dastur, Kreeti Technologies etc are associated with KGEC. Check out our placement statistics at http://kgec.edu.in/placementstatics"
+        ]
+      }
     ]
 }
