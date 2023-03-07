@@ -518,6 +518,53 @@
             ]
         },
         {
+            "tag": "Contact",
+            "patterns": [
+              "Where is KGEC located",
+              "How to contact KGEC",
+              "Address of KGEC",
+              "Phone number of KGEC",
+              "Location of KGEC",
+              "Email of KGEC"
+    
+    
+            ],
+            "responses": [
+              "Our address is Kalyani, Nadia, West Bengal, India, Pin-741235. Please contact us on +91 3325821309 or email us at Contact@Kgec.Edu.In"
+            ]
+        },
+        {
+            "tag": "Training and Placement Cell",
+            "patterns": [
+              "How to contact training and placement cell of KGEC",
+              "How to contact tnp cell of KGEC",
+              "Who is the training and placement officer of KGEC",
+              "Who is placement officer of KGEC",
+              "Phone number of training and placement cell of KGEC",
+              "Email id of training and placement cell of KGEC"
+            ],
+            "responses": [
+              "Prof. Mrinal Kanti Kumar is the placement director of KGEC. You can email TnP Cell of KGEC at tnp_kgec@kgec.edu.in or call at 9433190264 or 3325821309",
+              "The placement director of KGEC is Prof. Mrinal Kanti Kumar. You can email TnP Cell of KGEC at tnp_kgec@kgec.edu.in or call at 9433190264 or 3325821309"
+    
+            ]
+    
+        },
+        {
+            "tag": "Placement-statistics",
+            "patterns": [
+              "How is the placement in KGEC",
+              "How many students are placed in KGEC",
+              "What percentage of students get placed in KGEC",
+              "What is the placement statistics of KGEC",
+              "Which companies visit KGEC for placement"
+            ],
+            "responses": [
+              "The companies associated with KGEC are TCS, Cognizant, Cummins India, Tech Mahindra, Ericsson, Wipro, M N Dastur, Kreeti Technologies etc. You can check out our placement statistics at http://kgec.edu.in/placementstatics",
+              "Top companies like TCS, Cognizant, Cummins India, Tech Mahindra, Ericsson, Wipro, M N Dastur, Kreeti Technologies etc are associated with KGEC. Check out our placement statistics at http://kgec.edu.in/placementstatics"
+            ]
+        },
+        {
             "tag": "HOD of CSE",
             "patterns": [
                 "Who is the Head of the Department of CSE Department?",
@@ -574,7 +621,7 @@
                 "Who is the Head of the Department of the Mechanical Engineering Department?"
             ],
             "responses": [
-                "Mr. Tridibesh Das sir is the HOD of Mechanical Engineering Department."
+                "Mr. Santanu Das sir is the HOD of Mechanical Engineering Department."
             ]
         },
         {
@@ -627,6 +674,133 @@
                 "Prof.(Dr.) Sukla Basu, Prof. (Dr.) Angsuman Sarkar, Mr. Anup Mallick, Dr. Subhasish Maitra, Dr. Sandip Nandi, Dr. Bandana Barman, Dr. Kabita Purkait, Dr. Himadri Shekhar Dutta, Dwaipayan Ghosh are the faculty members under Electronics and Communication Engineering Department.",
                 "Faculty or Teaching staffs under the ECE Department are Prof.(Dr.) Sukla Basu, Prof. (Dr.) Angsuman Sarkar, Mr. Anup Mallick, Dr. Subhasish Maitra, Dr. Sandip Nandi, Dr. Bandana Barman, Dr. Kabita Purkait, Dr. Himadri Shekhar Dutta, Dwaipayan Ghosh"
             ]
-        }
+        },
+        {
+            "tag": " Staffs of EE",
+            "patterns": [
+                "Who are the faculties in EE Department",
+                "Who are the teaching members in EE Department",
+                "Who are the teaching staffs in EE Department",
+                "Who are the faculty members in EE Department",
+                "Who are the faculties in Electrical Engineering Department",
+                "Who are the teaching members in Electrical Engineering Department",
+                "Who are the teaching staffs in Electrical Engineering Department",
+                "Who are the faculty members in Electrical Engineering Department"
+            ],
+            "responses": [
+                "Prof.(Dr.) Shib Sankar Saha, Dr. Barun Mandal, Mr. Bikash Patel, Prof.(Dr.) Provas Kumar Roy, Dr. Parthasarathi Bera, Prof.(Dr.) Pradip Kumar Das, Dr. Pritam Kumar Gayen, Dr. Sawan Sen, Dr. Tapan Santra, Dr. Tapas Haldar are the faculty members under Electrical Engineering Department.",
+                "Faculty or Teaching staffs under the EE Department are Prof.(Dr.) Shib Sankar Saha, Dr. Barun Mandal, Mr. Bikash Patel, Prof.(Dr.) Provas Kumar Roy, Dr. Parthasarathi Bera, Prof.(Dr.) Pradip Kumar Das, Dr. Pritam Kumar Gayen, Dr. Sawan Sen, Dr. Tapan Santra, Dr. Tapas Haldar "
+            ]
+        },
+        {
+            "tag": " Staffs of ME",
+            "patterns": [
+                "Who are the faculties in ME Department",
+                "Who are the teaching members in ME Department",
+                "Who are the teaching staffs in ME Department",
+                "Who are the faculty members in ME Department",
+                "Who are the faculties in Mechanical Engineering Department",
+                "Who are the teaching members in Mechanical Engineering Department",
+                "Who are the teaching staffs in Mechanical Engineering Department",
+                "Who are the faculty members in Mechanical Engineering Department"
+            ],
+            "responses": [
+                "Prof.(Dr.) Santanu Das, Prof.(Dr.) Debojyoti Mitra, Dr. Sanchayan Mukherjee, Dr. Arup Kumar Biswas, Dr. Tridibesh Das, Dr. Arijit Dutta, Mr. Bidhan Chandra Biswas, Mr. Debasish Biswas, Mr. Samir Chakravarti, Dr. Sibsankar Dasmahapatra, Mr. Sirshendu Mahato are the faculty members under Mechanical Engineering Department.",
+                "Faculty or Teaching staffs under the ME Department are Prof.(Dr.) Santanu Das, Prof.(Dr.) Debojyoti Mitra, Dr. Sanchayan Mukherjee, Dr. Arup Kumar Biswas, Dr. Tridibesh Das, Dr. Arijit Dutta, Mr. Bidhan Chandra Biswas, Mr. Debasish Biswas, Mr. Samir Chakravarti, Dr. Sibsankar Dasmahapatra, Mr. Sirshendu Mahato."
+            ]
+        },
+        {
+            "tag": " Staffs of Physics",
+            "patterns": [
+                "Who are the faculties in Physics Department",
+                "Who are the teaching members in Physics Department",
+                "Who are the teaching staffs in Physics Department",
+                "Who are the faculty members in Physics Department",
+                "Who are the faculties in Physics Department",
+                "Who are the teaching members in Physics Department",
+                "Who are the teaching staffs in Physics Department",
+                "Who are the faculty members in Physics Department"
+            ],
+            "responses": [
+                "Mr. Rathin Basak, Dr. Shirsendu Dey are the faculty members under Physics Department.",
+                "Faculty or Teaching staffs under the Physics Department are Mr. Rathin Basak, Dr. Shirsendu Dey."
+            ]
+        },
+        {
+            "tag": " Staffs of Mathematics",
+            "patterns": [
+                "Who are the faculties in Mathematics Department",
+                "Who are the teaching members in Mathematics Department",
+                "Who are the teaching staffs in Mathematics Department",
+                "Who are the faculty members in Mathematics Department",
+                "Who are the faculties in Mathematics Department",
+                "Who are the teaching members in Mathematics Department",
+                "Who are the teaching staffs in Mathematics Department",
+                "Who are the faculty members in Mathematics Department"
+            ],
+            "responses": [
+                "Dr. Prasanta Basak are the faculty members under Mathematics Department.",
+                "Faculty or Teaching staffs under the Mathematics Department are Dr. Prasanta Basak."
+            ]
+        },
+        {
+            "tag": " Staffs of Chemistry",
+            "patterns": [
+                "Who are the faculties in Chemistry Department",
+                "Who are the teaching members in Chemistry Department",
+                "Who are the teaching staffs in Chemistry Department",
+                "Who are the faculty members in Chemistry Department",
+                "Who are the faculties in Chemistry Department",
+                "Who are the teaching members in Chemistry Department",
+                "Who are the teaching staffs in Chemistry Department",
+                "Who are the faculty members in Chemistry Department"
+            ],
+            "responses": [
+                "Dr. Uttam Das, Dr. Sefali Saha are the faculty members under Chemistry Department.",
+                "Faculty or Teaching staffs under the Chemistry Department are Dr. Uttam Das, Dr. Sefali  Saha."
+            ]
+        },
+        {
+            "tag": " Staffs of Humanities",
+            "patterns": [
+                "Who are the faculties in Humanities Department",
+                "Who are the teaching members in Humanities Department",
+                "Who are the teaching staffs in Humanities Department",
+                "Who are the faculty members in Humanities Department",
+                "Who are the faculties in Humanities Department",
+                "Who are the teaching members in Humanities Department",
+                "Who are the teaching staffs in Humanities Department",
+                "Who are the faculty members in Humanities Department"
+            ],
+            "responses": [
+                "Dr. Sourabh Kumar Das are the faculty members under Humanities Department.",
+                "Faculty or Teaching staffs under the Humanities Department are Dr. Sourabh Kumar Das."
+            ]
+        },
+        {
+            "tag": " Staffs of Computer Applications",
+            "patterns": [
+                "Who are the faculties in Computer Applications Department",
+                "Who are the teaching members in Computer Applications Department",
+                "Who are the teaching staffs in Computer Applications Department",
+                "Who are the faculty members in Computer Applications Department",
+                "Who are the faculties in Computer Applications Department",
+                "Who are the teaching members in Computer Applications Department",
+                "Who are the teaching staffs in Computer Applications Department",
+                "Who are the faculty members in Computer Applications Department"
+            ],
+            "responses": [
+                "Dr. Partha Garai, Dr. Indrajit Bhattacharyya, Dr. Anuradha Banerjee, Dr. Surya Sarathi Das are the faculty members under Mathematics Department.",
+                "Faculty or Teaching staffs under the Computer Applications Department are Dr. Partha Garai, Dr. Indrajit Bhattacharyya, Dr. Anuradha Banerjee, Dr. Surya Sarathi Das."
+            ]
+        },
+        
+        
+        
+        
+
+
+
+
     ]
 }
