@@ -706,7 +706,7 @@
             ]
         },
         {
-            "tag": " Staffs of Physics",
+            "tag": "Staffs of Physics",
             "patterns": [
                 "Who are the faculties in Physics Department",
                 "Who are the teaching members in Physics Department",
@@ -723,7 +723,7 @@
             ]
         },
         {
-            "tag": " Staffs of Mathematics",
+            "tag": "Staffs of Mathematics",
             "patterns": [
                 "Who are the faculties in Mathematics Department",
                 "Who are the teaching members in Mathematics Department",
@@ -735,12 +735,12 @@
                 "Who are the faculty members in Mathematics Department"
             ],
             "responses": [
-                "Dr. Prasanta Basak are the faculty members under Mathematics Department.",
-                "Faculty or Teaching staffs under the Mathematics Department are Dr. Prasanta Basak."
+                "Dr. Prasanta Basak is the only faculty member under Mathematics Department.",
+                "Faculty or Teaching staff under the Mathematics Department is Dr. Prasanta Basak."
             ]
         },
         {
-            "tag": " Staffs of Chemistry",
+            "tag": "Staffs of Chemistry",
             "patterns": [
                 "Who are the faculties in Chemistry Department",
                 "Who are the teaching members in Chemistry Department",
@@ -757,7 +757,7 @@
             ]
         },
         {
-            "tag": " Staffs of Humanities",
+            "tag": "Staffs of Humanities",
             "patterns": [
                 "Who are the faculties in Humanities Department",
                 "Who are the teaching members in Humanities Department",
@@ -769,12 +769,12 @@
                 "Who are the faculty members in Humanities Department"
             ],
             "responses": [
-                "Dr. Sourabh Kumar Das are the faculty members under Humanities Department.",
-                "Faculty or Teaching staffs under the Humanities Department are Dr. Sourabh Kumar Das."
+                "Dr. Sourabh Kumar Das is the only faculty member under Humanities Department.",
+                "Faculty or Teaching staff under the Humanities Department is Dr. Sourabh Kumar Das."
             ]
         },
         {
-            "tag": " Staffs of Computer Applications",
+            "tag": "Staffs of Computer Applications",
             "patterns": [
                 "Who are the faculties in Computer Applications Department",
                 "Who are the teaching members in Computer Applications Department",
@@ -857,13 +857,13 @@
         },
         {
             "tag": "Number of Hostels",
-            "pattern": [
+            "patterns": [
                 "How many hostels are there in kgec",
                 "Number of hostels in kgec",
                 "Are there hostels in KGEC",
                 "How many hostels are there in KGEC?"
             ],
-            "response": [
+            "responses": [
                 "6",
                 "There are six hostels in KGEC.",
                 "There are total six hostels in KGEC"
@@ -871,126 +871,126 @@
         },
         {
             "tag": "Name of Hostels",
-            "pattern": [
+            "patterns": [
                 "What are the names of hostels in kgec",
                 "Hostels in kgec",
                 "All hostels in KGEC"
             ],
-            "response": [
-                "Acharya Prafulla Chandra Roy Hall,Rishi Bankim Chandra Hall ,Raja Rammohan Roy Hall ,Pritilata Chhatrinibas,Vidyasagar Chhatrabas, Type IV Boys Hostel "
+            "responses": [
+                "Acharya Prafulla Chandra Roy Hall, Rishi Bankim Chandra Hall, Raja Rammohan Roy Hall, Pritilata Chhatrinibas, Vidyasagar Chhatrabas, Type IV Boys Hostel"
             ]
         },
         {
             "tag": "APC Hall",
-            "pattern": [
+            "patterns": [
                 "Is Apc boys hostel"
             ],
-            "response": [
+            "responses": [
                 "Yes"
             ]
         },
         {
             "tag": "APC Hall Location",
-            "pattern": [
+            "patterns": [
                 "Where is Apc Hall located",
                 "What is the location of Apc Hall"
             ],
-            "response": [
+            "responses": [
                 "XFQ2+W5H, University Of Kalyani, Chandmari, Kalyani, West Bengal 741235"
             ]
         },
         {
             "tag": "RBC Hall",
-            "pattern": [
+            "patterns": [
                 "Is RBC boys hostel"
             ],
-            "response": [
+            "responses": [
                 "Yes"
             ]
         },
         {
             "tag": "RBC Hall Location",
-            "pattern": [
+            "patterns": [
                 "Where is RBC Hall located",
                 "What is the location of RBC Hall "
             ],
-            "response": [
+            "responses": [
                 "XCRX+HG3, Kalyani government engineering college, Kalyani, West Bengal 741245"
             ]
         },
         {
             "tag": "RRR Hall",
-            "pattern": [
+            "patterns": [
                 "Is RRR boys hostel"
             ],
-            "response": [
+            "responses": [
                 "Yes"
             ]
         },
         {
             "tag": "RRR Hall Location",
-            "pattern": [
+            "patterns": [
                 "Where is RRR Hall located",
                 "What is the location of RRR Hall"
             ],
-            "response": [
+            "responses": [
                 "Block C, University Of Kalyani, Kalyani, Nadia - 741245"
             ]
         },
         {
             "tag": "VC Hall",
-            "pattern": [
+            "patterns": [
                 "Is VC boys hostel"
             ],
-            "response": [
+            "responses": [
                 "Yes"
             ]
         },
         {
             "tag": "VC Hall Location",
-            "pattern": [
+            "patterns": [
                 "Where is VC Hall located",
                 "What is the location of VC Hall"
             ],
-            "response": [
+            "responses": [
                 " Silpanchal Station Rd, Block D, Kalyani, West Bengal 741235"
             ]
         },
         {
             "tag": "PC Hall",
-            "pattern": [
+            "patterns": [
                 "Is PC boys hostel"
             ],
-            "response": [
+            "responses": [
                 "No"
             ]
         },
         {
             "tag": "PC Hall Location",
-            "pattern": [
+            "patterns": [
                 "Where is PC Hall located",
                 "What is the location of PC Hall"
             ],
-            "response": [
+            "responses": [
                 "XCRX+HG3, Kalyani government engineering college, Kalyani, West Bengal 741245"
             ]
         },
         {
             "tag": "Type IV Hall",
-            "pattern": [
+            "patterns": [
                 "Is Type IV  boys hostel"
             ],
-            "response": [
+            "responses": [
                 "Yes"
             ]
         },
         {
             "tag": "Type IV Location",
-            "pattern": [
+            "patterns": [
                 "Where is Type IV Hostel located",
                 "What is the location of Type IV Hostel"
             ],
-            "response": [
+            "responses": [
                 "XCRX+HG3, Kalyani government engineering college, Kalyani, West Bengal 741245"
             ]
         }
