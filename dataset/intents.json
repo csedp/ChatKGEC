@@ -520,48 +520,44 @@
         {
             "tag": "Contact",
             "patterns": [
-              "Where is KGEC located",
-              "How to contact KGEC",
-              "Address of KGEC",
-              "Phone number of KGEC",
-              "Location of KGEC",
-              "Email of KGEC"
-    
-    
+                "Where is KGEC located",
+                "How to contact KGEC",
+                "Address of KGEC",
+                "Phone number of KGEC",
+                "Location of KGEC",
+                "Email of KGEC"
             ],
             "responses": [
-              "Our address is Kalyani, Nadia, West Bengal, India, Pin-741235. Please contact us on +91 3325821309 or email us at Contact@Kgec.Edu.In"
+                "Our address is Kalyani, Nadia, West Bengal, India, Pin-741235. Please contact us on +91 3325821309 or email us at Contact@Kgec.Edu.In"
             ]
         },
         {
             "tag": "Training and Placement Cell",
             "patterns": [
-              "How to contact training and placement cell of KGEC",
-              "How to contact tnp cell of KGEC",
-              "Who is the training and placement officer of KGEC",
-              "Who is placement officer of KGEC",
-              "Phone number of training and placement cell of KGEC",
-              "Email id of training and placement cell of KGEC"
+                "How to contact training and placement cell of KGEC",
+                "How to contact tnp cell of KGEC",
+                "Who is the training and placement officer of KGEC",
+                "Who is placement officer of KGEC",
+                "Phone number of training and placement cell of KGEC",
+                "Email id of training and placement cell of KGEC"
             ],
             "responses": [
-              "Prof. Mrinal Kanti Kumar is the placement director of KGEC. You can email TnP Cell of KGEC at tnp_kgec@kgec.edu.in or call at 9433190264 or 3325821309",
-              "The placement director of KGEC is Prof. Mrinal Kanti Kumar. You can email TnP Cell of KGEC at tnp_kgec@kgec.edu.in or call at 9433190264 or 3325821309"
-    
+                "Prof. Mrinal Kanti Kumar is the placement director of KGEC. You can email TnP Cell of KGEC at tnp_kgec@kgec.edu.in or call at 9433190264 or 3325821309",
+                "The placement director of KGEC is Prof. Mrinal Kanti Kumar. You can email TnP Cell of KGEC at tnp_kgec@kgec.edu.in or call at 9433190264 or 3325821309"
             ]
-    
         },
         {
             "tag": "Placement-statistics",
             "patterns": [
-              "How is the placement in KGEC",
-              "How many students are placed in KGEC",
-              "What percentage of students get placed in KGEC",
-              "What is the placement statistics of KGEC",
-              "Which companies visit KGEC for placement"
+                "How is the placement in KGEC",
+                "How many students are placed in KGEC",
+                "What percentage of students get placed in KGEC",
+                "What is the placement statistics of KGEC",
+                "Which companies visit KGEC for placement"
             ],
             "responses": [
-              "The companies associated with KGEC are TCS, Cognizant, Cummins India, Tech Mahindra, Ericsson, Wipro, M N Dastur, Kreeti Technologies etc. You can check out our placement statistics at http://kgec.edu.in/placementstatics",
-              "Top companies like TCS, Cognizant, Cummins India, Tech Mahindra, Ericsson, Wipro, M N Dastur, Kreeti Technologies etc are associated with KGEC. Check out our placement statistics at http://kgec.edu.in/placementstatics"
+                "The companies associated with KGEC are TCS, Cognizant, Cummins India, Tech Mahindra, Ericsson, Wipro, M N Dastur, Kreeti Technologies etc. You can check out our placement statistics at http://kgec.edu.in/placementstatics",
+                "Top companies like TCS, Cognizant, Cummins India, Tech Mahindra, Ericsson, Wipro, M N Dastur, Kreeti Technologies etc are associated with KGEC. Check out our placement statistics at http://kgec.edu.in/placementstatics"
             ]
         },
         {
@@ -794,7 +790,6 @@
                 "Faculty or Teaching staffs under the Computer Applications Department are Dr. Partha Garai, Dr. Indrajit Bhattacharyya, Dr. Anuradha Banerjee, Dr. Surya Sarathi Das."
             ]
         },
-        
         {
             "tag": "under-graduate admission",
             "patterns": [
@@ -837,12 +832,12 @@
                 "By which exam can I take admission in KGEC for MCA?",
                 "How can I do MCA in KGEC?"
             ],
-        "responses": [
-            "Admission is taken through JECA (West Bengal Joint Entrance Exam MCA). Candidate must acquire 1st class in BSC.",
-            "You can take admission in KGEC by appearing for JECA.",
-            "You need to appear for JECA exams to get admission in MTech.",
-            "You can take admission in KGEC by appearing for JECA. You need to have 1st class in BSC",
-            "You need to appear for JECA exams to get admission in MTech. 1st class in BSC is required."
+            "responses": [
+                "Admission is taken through JECA (West Bengal Joint Entrance Exam MCA). Candidate must acquire 1st class in BSC.",
+                "You can take admission in KGEC by appearing for JECA.",
+                "You need to appear for JECA exams to get admission in MTech.",
+                "You can take admission in KGEC by appearing for JECA. You need to have 1st class in BSC",
+                "You need to appear for JECA exams to get admission in MTech. 1st class in BSC is required."
             ]
         },
         {
@@ -859,12 +854,6 @@
                 "You can opt for MTech or MCA as master courses in KGEC.",
                 "You can opt for MTech or MCA as post-graduate courses in KGEC."
             ]
-        },
-        
-        
-
-
-
-
+        }
     ]
 }
