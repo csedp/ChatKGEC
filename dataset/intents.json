@@ -854,6 +854,96 @@
                 "You can opt for MTech or MCA as master courses in KGEC.",
                 "You can opt for MTech or MCA as post-graduate courses in KGEC."
             ]
-        }
+        },
+        
+        {
+            "tag":"Number of Hostels",
+            "pattern":[
+                "How many hostels are there in kgec",
+                "Number of hostels in kgec",  
+                "Are there hostels in KGEC",
+                "How many hostels are there in KGEC?"
+            ],
+            "response":[
+                "6",
+                "There are six hostels in KGEC.",
+                "There are total six hostels in KGEC"
+            ]
+        },
+        {
+            "tag":"Name of Hostels",
+            "pattern":[
+                "What are the names of hostels in kgec",
+                "Hostels in kgec",
+                "All hostels in KGEC"
+            ],
+            "response":[
+                "Acharya Prafulla Chandra Roy Hall,Rishi Bankim Chandra Hall ,Raja Rammohan Roy Hall ,Pritilata Chhatrinibas,Vidyasagar Chhatrabas, Type IV Boys Hostel "
+            ]
+        },
+        {
+            "tag":"APC Hall",
+            "pattern":[
+                "Is Apc boys hostel"
+            ],
+            "response":["Yes"]
+        },
+        {
+            "tag":"APC Hall Location",
+            "pattern":["Where is Apc Hall located","What is the location of Apc Hall"],
+            "response":["XFQ2+W5H, University Of Kalyani, Chandmari, Kalyani, West Bengal 741235"]
+        },
+        {
+            "tag":"RBC Hall",
+            "pattern":["Is RBC boys hostel"],
+            "response":["Yes"]
+        },
+        {
+            "tag":"RBC Hall Location",
+            "pattern":["Where is RBC Hall located","What is the location of RBC Hall "],
+            "response":["XCRX+HG3, Kalyani government engineering college, Kalyani, West Bengal 741245"]
+        },
+        {
+            "tag":"RRR Hall",
+            "pattern":["Is RRR boys hostel"],
+            "response":["Yes"]
+        },
+        {
+            "tag":"RRR Hall Location",
+            "pattern":["Where is RRR Hall located","What is the location of RRR Hall"],
+            "response":["Block C, University Of Kalyani, Kalyani, Nadia - 741245"]
+        },
+        {
+            "tag":"VC Hall",
+            "pattern":["Is VC boys hostel"],
+            "response":["Yes"]
+        },
+        {
+            "tag":"VC Hall Location",
+            "pattern":["Where is VC Hall located","What is the location of VC Hall"],
+            "response":[" Silpanchal Station Rd, Block D, Kalyani, West Bengal 741235"]
+        },
+        {
+            "tag":"PC Hall",
+            "pattern":["Is PC boys hostel"],
+            "response":["No"]
+        },
+        {
+            "tag":"PC Hall Location",
+            "pattern":["Where is PC Hall located","What is the location of PC Hall"],
+            "response":["XCRX+HG3, Kalyani government engineering college, Kalyani, West Bengal 741245"]
+        },
+        {
+            "tag":"Type IV Hall",
+            "pattern":["Is Type IV  boys hostel"],
+            "response":["Yes"]
+        },
+        {
+            "tag":"Type IV Location",
+            "pattern":["Where is Type IV Hostel located","What is the location of Type IV Hostel"],
+            "response":["XCRX+HG3, Kalyani government engineering college, Kalyani, West Bengal 741245"]
+        },
+
+
     ]
 }
