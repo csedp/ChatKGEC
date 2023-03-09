@@ -795,7 +795,71 @@
             ]
         },
         
-        
+        {
+            "tag": "under-graduate admission",
+            "patterns": [
+                "How to get admission in KGEC for undergraduate degree?",
+                "How to take admission for BTech in KGEC?",
+                "What is the process for admission in KGEC for engineering?",
+                "By which exam can I take admission in KGEC for engineering?",
+                "How can I do engineering in KGEC?"
+            ],
+            "responses": [
+                "Admission is taken through WBJEE(West Bengal Joint Entrance Examination). Diploma holders can take admission through WB-JELET(West Bengal Joint Entrance Examination of Lateral Entry) in B.Tech 2nd year.",
+                "You can take admission in KGEC by appearing for WBJEE. If you are a Diploma holder, you can appear for WB-JELET.",
+                "There are two ways of getting into KGEC. Number 1 via WBJEE and number 2 by WB-JELET in the second year."
+            ]
+        },
+        {
+            "tag": "MTech admission",
+            "patterns": [
+                "How to get admission in KGEC for MTech degree?",
+                "How to take admission for MTech in KGEC?",
+                "What is the process for admission in KGEC for masters?",
+                "By which exam can I take admission in KGEC for masters?",
+                "What is the process for admission in KGEC for MTech?",
+                "By which exam can I take admission in KGEC for MTech?",
+                "How can I do MTech in KGEC?",
+                "How can I do masters in KGEC?"
+            ],
+            "responses": [
+                "Admission for MTech is taken through GRADUATE APTITUDE TEST ENGINEERING (GATE).",
+                "You can take admission for MTech in KGEC by appearing for GATE.",
+                "You need to appear for GATE exams to get admission in MTech."
+            ]
+        },
+        {
+            "tag": "MCA admission",
+            "patterns": [
+                "How to get admission in KGEC for master in computer science degree?",
+                "How to take admission for MCA in KGEC?",
+                "What is the process for admission in KGEC for MCA?",
+                "By which exam can I take admission in KGEC for MCA?",
+                "How can I do MCA in KGEC?"
+            ],
+        "responses": [
+            "Admission is taken through JECA (West Bengal Joint Entrance Exam MCA). Candidate must acquire 1st class in BSC.",
+            "You can take admission in KGEC by appearing for JECA.",
+            "You need to appear for JECA exams to get admission in MTech.",
+            "You can take admission in KGEC by appearing for JECA. You need to have 1st class in BSC",
+            "You need to appear for JECA exams to get admission in MTech. 1st class in BSC is required."
+            ]
+        },
+        {
+            "tag": "post-graduate admission",
+            "patterns": [
+                "What are the post-graduate courses available in KGEC?",
+                "What are the master courses available in KGEC?",
+                "What can I do in KGEC after engineering?",
+                "What can I do in KGEC after BTech?"
+            ],
+            "responses": [
+                "You can do MTech or MCA after your engineering in KGEC",
+                "KGEC offers MTech and MCA courses.",
+                "You can opt for MTech or MCA as master courses in KGEC.",
+                "You can opt for MTech or MCA as post-graduate courses in KGEC."
+            ]
+        },
         
         
 
