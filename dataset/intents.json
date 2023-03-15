@@ -864,7 +864,7 @@
                 "How many hostels are there in KGEC?"
             ],
             "responses": [
-                "6",
+                "6 hostels are there in KGEC.",
                 "There are six hostels in KGEC.",
                 "There are total six hostels in KGEC"
             ]
@@ -992,6 +992,43 @@
             ],
             "responses": [
                 "XCRX+HG3, Kalyani government engineering college, Kalyani, West Bengal 741245"
+            ]
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "Name of KGEC's library",
+                "library in KGEC",
+                "What is the name of library in KGEC?"
+            ],
+            "responses": [
+                "KGEC Central Library",
+                "There is one central library in KGEC"
+            ]
+        },
+        {
+            "tag": "fest",
+            "patterns": [
+                "Name of the annual fest in kgec",
+                "Annual Festival in kgec",
+                "What is the name of the annual fest in KGEC?",
+                "Tell me about the annual fest in KGEC",
+                "Tell me about Espektro"
+            ],
+            "responses": [
+                "Espektro KGEC is the annual fest of KGEC",
+                "Espektro KGEC is the annual fest of KGEC. It is a 3-4 days fest. It consists of one technical part, Techtix and one cultural part, Exotica and one sports part, Al-Hamra."
+            ]
+        },
+        {
+            "tag": "clubs",
+            "patterns": [
+                "What are the various clubs in kgec",
+                "clubs in KGEC",
+                "Name some clubs in KGEC"
+            ],
+            "responses": [
+                "KGEC has 10 clubs"
             ]
         }
     ]
