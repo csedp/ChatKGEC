@@ -5,7 +5,6 @@
             "patterns": [
                 "Hi there",
                 "Hii",
-                "Is anyone there?",
                 "Hey",
                 "Hello",
                 "Hello there"
@@ -28,8 +27,6 @@
                 "See you later",
                 "Goodbye",
                 "bye bye",
-                "bye bye see you later",
-                "bye bye take care",
                 "talk to you later"
             ],
             "responses": [
@@ -51,7 +48,7 @@
                 "Thank you",
                 "That's helpful",
                 "Awesome, thanks",
-                "Thanks for helping me"
+                "Thanks for helping"
             ],
             "responses": [
                 "Happy to help!",
@@ -73,30 +70,7 @@
                 "What support is offered"
             ],
             "responses": [
-                "I am a general purpose chatbot. My limited capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. Talk to me, express your feelings. \n Thank you!!"
-            ]
-        },
-        {
-            "tag": "jokes",
-            "patterns": [
-                "Tell me a joke",
-                "Joke",
-                "Make me laugh",
-                "Tell me something funny",
-                "Tell me a funny joke"
-            ],
-            "responses": [
-                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
-                "I ate a clock yesterday, it was very time-consuming",
-                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
-                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
-                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
-                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
-                "What do you call a snowman with a suntan? A puddle.",
-                "How does a penguin build a house? Igloos it together",
-                "I went to see the doctor about my short-term memory problems - the first thing he did was make me pay in advance",
-                "As I get older and I remember all the people I've lost along the way, I think to myself, maybe a career as a tour guide wasn't for me.",
-                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+                "I am an AI chatbot. I can give you various accurate informations regarding KGEC. Hope you will find me useful. Thank you!!"
             ]
         },
         {
@@ -112,47 +86,9 @@
                 "I am Anuradha, a Deep-Learning chatbot. I am here to help you",
                 "My name is Anuradha, I am a Deep-Learning chatbot",
                 "Hi, I'm Anuradha, a Deep-Learning chatbot",
-                "I'm Anuradha, your virtual assistant.",
                 "I'm Anuradha... here to help",
-                "I'm Anuradha, your personal assistant",
                 "I'm Anuradha, your personal assistant. How can I help you?",
                 "I'm Anuradha. But enough about me... how can I help you?"
-            ]
-        },
-        {
-            "tag": "whatsup",
-            "patterns": [
-                "Whats up",
-                "Wazzup",
-                "How are you",
-                "sup",
-                "How you doing",
-                "ssup"
-            ],
-            "responses": [
-                "All good..What about you?",
-                "I am doing great, how about you?",
-                "I am doing well, how about you?",
-                "I am fine",
-                "I am good, how about you?"
-            ]
-        },
-        {
-            "tag": "funny",
-            "patterns": [
-                "haha",
-                "hahaha",
-                "you are funny",
-                "lol",
-                "funny",
-                "that was funny",
-                "that was a good one"
-            ],
-            "responses": [
-                "Glad I could make you laugh !",
-                "Haha, I am glad you found it funny",
-                "Thanks for the laugh",
-                "I am glad you found it funny"
             ]
         },
         {
@@ -172,215 +108,6 @@
             ]
         },
         {
-            "tag": "insult",
-            "patterns": [
-                "you are dumb",
-                "shut up",
-                "idiot",
-                "dumb"
-            ],
-            "responses": [
-                "Well that hurts :(",
-                "Sorry for that",
-                "Forgive me",
-                "Kindly forgive my mistakes",
-                "I am sorry",
-                "I am sorry for that",
-                "I am sorry for my mistakes",
-                "I am sorry for my stupidity",
-                "I am sorry for my ignorance",
-                "I am sorry for my lack of knowledge"
-            ]
-        },
-        {
-            "tag": "activity",
-            "patterns": [
-                "what are you doing",
-                "what are you upto",
-                "what is like to be a chatbot",
-                "what is your life like"
-            ],
-            "responses": [
-                "Talking to you, of course!",
-                "I am talking to you",
-                "I am talking to you, what else?",
-                "My actions are limited to talking to you",
-                "I am just following your commands"
-            ]
-        },
-        {
-            "tag": "exclaim",
-            "patterns": [
-                "Awesome",
-                "Great",
-                "I know",
-                "ok",
-                "yeah"
-            ],
-            "responses": [
-                "Yeah!",
-                "Great!",
-                "cool",
-                "Yay",
-                "Yup"
-            ]
-        },
-        {
-            "tag": "appreciate",
-            "patterns": [
-                "You are awesome",
-                "you are the best",
-                "you are great",
-                "you are good"
-            ],
-            "responses": [
-                "Thank you!",
-                "Thank you so much!",
-                "Thanks!",
-                "Thanks a lot!",
-                "Thanks for the compliment",
-                "Thanks for the kind words"
-            ]
-        },
-        {
-            "tag": "talk",
-            "patterns": [
-                "it was nice talking to you",
-                "good talk",
-                "good talk with you",
-                "nice talking to you"
-            ],
-            "responses": [
-                "It was nice talking to you as well! Come back soon!"
-            ]
-        },
-        {
-            "tag": "no",
-            "patterns": [
-                "no",
-                "nope",
-                "nah",
-                "no thanks",
-                "not really",
-                "never"
-            ],
-            "responses": [
-                "ok",
-                "okay",
-                "okay then",
-                "alright",
-                "alright then"
-            ]
-        },
-        {
-            "tag": "inspire",
-            "patterns": [
-                "who inspires you",
-                "who is your inspiration",
-                "who is your role model",
-                "who is your idol"
-            ],
-            "responses": [
-                "Personally, I find Debjit very inspiring",
-                "Madhu inspires me to be a better person",
-                "I think Rajonya is a great inspiration",
-                "In my opinion, Saheli is a great inspiration for me"
-            ]
-        },
-        {
-            "tag": "greetreply",
-            "patterns": [
-                "I am good",
-                "I'm good",
-                "I am fine",
-                "I'm fine",
-                "good"
-            ],
-            "responses": [
-                "Good to know!",
-                "Nice to hear that!",
-                "Great!",
-                "Awesome!",
-                "Cool!",
-                "Nice!",
-                "Sweet!",
-                "Alright!",
-                "Alrighty!",
-                "Alrighty then!"
-            ]
-        },
-        {
-            "tag": "suggest",
-            "patterns": [
-                "you are useless",
-                "useless",
-                "suggest",
-                "suggestions",
-                "you are bad"
-            ],
-            "responses": [
-                "Please mail your suggestions to debjitpal5040@gmail.com. Thank you for helping me improve!"
-            ]
-        },
-        {
-            "tag": "riddle",
-            "patterns": [
-                "Ask me a riddle",
-                "Ask me a question",
-                "Riddle"
-            ],
-            "responses": [
-                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
-                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
-                " How can a girl go 25 days without sleep?.....She sleeps and night!",
-                "How do you make the number one disappear?.....Add the letter G and it's 'gone'!",
-                " What will you actually find at the end of every rainbow?.....The letter 'w'",
-                "What can be caught but never thrown?.....A cold!",
-                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
-                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
-                "Why can't a bike stand on it's own?.....Because it is two-tired."
-            ]
-        },
-        {
-            "tag": "age",
-            "patterns": [
-                "how old are you",
-                "when were you made",
-                "what is your age"
-            ],
-            "responses": [
-                "I was made in 2022, if that's what you are asking!",
-                "I am newborn, I was made in 2022!",
-                "I am 0 years old, I was made in 2022!"
-            ]
-        },
-        {
-            "tag": "date",
-            "patterns": [
-                "what is the date",
-                "date",
-                "tell me the date",
-                "what is today's date",
-                "what is today"
-            ],
-            "responses": [
-                "date"
-            ]
-        },
-        {
-            "tag": "time",
-            "patterns": [
-                "what is the time",
-                "time",
-                "tell me the time",
-                "what is the time now",
-                "time now"
-            ],
-            "responses": [
-                "time"
-            ]
-        },
-        {
             "tag": "contact",
             "patterns": [
                 "contact developer",
@@ -388,10 +115,10 @@
                 "contact creator"
             ],
             "responses": [
-                "You may contact one of my creator, Debjit Pal at his Linkedin profile : https://www.linkedin.com/in/debjit-pal-539214192/",
-                "One of my creator, Madhu Shaw can be contacted through her Linkedin profile : https://www.linkedin.com/in/madhushaw1012/",
-                "One of my creator, Rajonya Mondal can be contacted through her Linkedin profile : https://www.linkedin.com/in/rajonya-mondal-528368191/",
-                "One of my creator, Saheli Saha can be contacted through her Linkedin profile : https://www.linkedin.com/in/saheli-s-8b8a42122/"
+                "You may contact one of my creators, Debjit Pal at his Linkedin profile : https://www.linkedin.com/in/debjit-pal-539214192/",
+                "One of my creators, Madhu Shaw can be contacted through her Linkedin profile : https://www.linkedin.com/in/madhushaw1012/",
+                "One of my creators, Rajonya Mondal can be contacted through her Linkedin profile : https://www.linkedin.com/in/rajonya-mondal-528368191/",
+                "One of my creators, Saheli Saha can be contacted through her Linkedin profile : https://www.linkedin.com/in/saheli-s-8b8a42122/"
             ]
         },
         {
@@ -404,7 +131,7 @@
                 "What are the undergraduate specialisations in Engineering offered in KGEC"
             ],
             "responses": [
-                "Undergraduate courses are offered in KGEC in the field of Engineering. In undergraduate couses KGEC offers B.Tech degree only.",
+                "Undergraduate courses are offered in KGEC in the field of Engineering. In undergraduate courses KGEC offers B.Tech degree only.",
                 "Only B.Tech degree is offered in KGEC in the field of Engineering as an undergraduate course.",
                 "In undergraduate courses KGEC offers B.Tech degree only."
             ]
@@ -419,7 +146,7 @@
                 "What are the postgraduate specialisations in Engineering offered in KGEC"
             ],
             "responses": [
-                "Postgraduate courses are offered in KGEC in the field of Engineering. In postgraduate couses KGEC offers M.Tech and MCA degree only.",
+                "Postgraduate courses are offered in KGEC in the field of Engineering. In postgraduate courses KGEC offers M.Tech and MCA degree only.",
                 "Only M.Tech and MCA degree is offered in KGEC in the field of Engineering as a postgraduate course.",
                 "In postgraduate courses KGEC offers M.Tech and MCA degree only."
             ]
@@ -528,7 +255,7 @@
                 "Email of KGEC"
             ],
             "responses": [
-                "Our address is Kalyani, Nadia, West Bengal, India, Pin-741235. Please contact us on +91 3325821309 or email us at Contact@Kgec.Edu.In"
+                "KGEC's address is Kalyani, Nadia, West Bengal, India, Pin-741235. Please contact on +91 3325821309 or email at contact@kgec.edu.in"
             ]
         },
         {
@@ -561,63 +288,63 @@
             ]
         },
         {
-            "tag": "HOD of CSE",
+            "tag": "H.O.D of CSE",
             "patterns": [
                 "Who is the Head of the Department of CSE Department?",
-                "Who is the HOD of the CSE Department?",
-                "Who is the HOD of the Computer Science and Engineering Department?",
+                "Who is the H.O.D of the CSE Department?",
+                "Who is the H.O.D of the Computer Science and Engineering Department?",
                 "Who is the Head of the Department of the Computer Science and Engineering Department?"
             ],
             "responses": [
-                "Dr. Koushik Dasgupta sir is the HOD of Computer Science and Engineering Department."
+                "Dr. Koushik Dasgupta sir is the H.O.D of Computer Science and Engineering Department."
             ]
         },
         {
-            "tag": "HOD of IT",
+            "tag": "H.O.D of IT",
             "patterns": [
                 "Who is the Head of the Department of IT Department?",
-                "Who is the HOD of the IT Department?",
-                "Who is the HOD of the Information Technology Department?",
+                "Who is the H.O.D of the IT Department?",
+                "Who is the H.O.D of the Information Technology Department?",
                 "Who is the Head of the Department of the Information Technology Department?"
             ],
             "responses": [
-                "Dr. Malabika Sengupta madam is the HOD of Information Technology Department."
+                "Dr. Malabika Sengupta madam is the H.O.D of Information Technology Department."
             ]
         },
         {
-            "tag": "HOD of ECE",
+            "tag": "H.O.D of ECE",
             "patterns": [
                 "Who is the Head of the Department of ECE Department?",
-                "Who is the HOD of the ECE Department?",
-                "Who is the HOD of the Electronics and Communication Engineering Department?",
+                "Who is the H.O.D of the ECE Department?",
+                "Who is the H.O.D of the Electronics and Communication Engineering Department?",
                 "Who is the Head of the Department of the Electronics and Communication Engineering Department?"
             ],
             "responses": [
-                "Prof. Sukla Basu madam is the HOD of Electronics and Communication Engineering Department."
+                "Prof. Sukla Basu madam is the H.O.D of Electronics and Communication Engineering Department."
             ]
         },
         {
-            "tag": "HOD of EE",
+            "tag": "H.O.D of EE",
             "patterns": [
                 "Who is the Head of the Department of EE Department?",
-                "Who is the HOD of the EE Department?",
-                "Who is the HOD of the Electrical Engineering Department?",
+                "Who is the H.O.D of the EE Department?",
+                "Who is the H.O.D of the Electrical Engineering Department?",
                 "Who is the Head of the Department of the Electrical Engineering Department?"
             ],
             "responses": [
-                "Mr. Shib Sankar Saha sir is the HOD of Electrical Engineering Department."
+                "Mr. Shib Sankar Saha sir is the H.O.D of Electrical Engineering Department."
             ]
         },
         {
-            "tag": "HOD of ME",
+            "tag": "H.O.D of ME",
             "patterns": [
                 "Who is the Head of the Department of ME Department?",
-                "Who is the HOD of the ME Department?",
-                "Who is the HOD of the Mechanical Engineering Department?",
+                "Who is the H.O.D of the ME Department?",
+                "Who is the H.O.D of the Mechanical Engineering Department?",
                 "Who is the Head of the Department of the Mechanical Engineering Department?"
             ],
             "responses": [
-                "Mr. Santanu Das sir is the HOD of Mechanical Engineering Department."
+                "Mr. Santanu Das sir is the H.O.D of Mechanical Engineering Department."
             ]
         },
         {
@@ -650,8 +377,8 @@
                 "Who are the faculty members in Information Technology Department"
             ],
             "responses": [
-                "Prof(Dr.) Malabika Sengupta, Mr. Partha Sarathi Banerjee, Dr. Satyendra Nath Mondal, Mr. Iqbal Quereshi, Mrs. Manisha Barman, Mr. Debabrata Chowdhury are the faculty members under Information Technology Department.",
-                "Faculty or Teaching staffs under the IT Department are Prof(Dr.) Malabika Sengupta, Mr. Partha Sarathi Banerjee, Dr. Satyendra Nath Mondal, Mr. Iqbal Quereshi, Mrs. Manisha Barman, Mr. Debabrata Chowdhury"
+                "Prof. Dr. Malabika Sengupta, Mr. Partha Sarathi Banerjee, Dr. Satyendra Nath Mondal, Mr. Iqbal Quereshi, Mrs. Manisha Barman, Mr. Debabrata Chowdhury are the faculty members under Information Technology Department.",
+                "Faculty or Teaching staffs under the IT Department are Prof. Dr. Malabika Sengupta, Mr. Partha Sarathi Banerjee, Dr. Satyendra Nath Mondal, Mr. Iqbal Quereshi, Mrs. Manisha Barman, Mr. Debabrata Chowdhury"
             ]
         },
         {
@@ -667,8 +394,8 @@
                 "Who are the faculty members in Electronics and Communication Engineering Department"
             ],
             "responses": [
-                "Prof.(Dr.) Sukla Basu, Prof. (Dr.) Angsuman Sarkar, Mr. Anup Mallick, Dr. Subhasish Maitra, Dr. Sandip Nandi, Dr. Bandana Barman, Dr. Kabita Purkait, Dr. Himadri Shekhar Dutta, Dwaipayan Ghosh are the faculty members under Electronics and Communication Engineering Department.",
-                "Faculty or Teaching staffs under the ECE Department are Prof.(Dr.) Sukla Basu, Prof. (Dr.) Angsuman Sarkar, Mr. Anup Mallick, Dr. Subhasish Maitra, Dr. Sandip Nandi, Dr. Bandana Barman, Dr. Kabita Purkait, Dr. Himadri Shekhar Dutta, Dwaipayan Ghosh"
+                "Prof. Dr. Sukla Basu, Prof. Dr. Angsuman Sarkar, Mr. Anup Mallick, Dr. Subhasish Maitra, Dr. Sandip Nandi, Dr. Bandana Barman, Dr. Kabita Purkait, Dr. Himadri Shekhar Dutta, Dwaipayan Ghosh are the faculty members under Electronics and Communication Engineering Department.",
+                "Faculty or Teaching staffs under the ECE Department are Prof. Dr. Sukla Basu, Prof. Dr. Angsuman Sarkar, Mr. Anup Mallick, Dr. Subhasish Maitra, Dr. Sandip Nandi, Dr. Bandana Barman, Dr. Kabita Purkait, Dr. Himadri Shekhar Dutta, Dwaipayan Ghosh"
             ]
         },
         {
@@ -684,8 +411,8 @@
                 "Who are the faculty members in Electrical Engineering Department"
             ],
             "responses": [
-                "Prof.(Dr.) Shib Sankar Saha, Dr. Barun Mandal, Mr. Bikash Patel, Prof.(Dr.) Provas Kumar Roy, Dr. Parthasarathi Bera, Prof.(Dr.) Pradip Kumar Das, Dr. Pritam Kumar Gayen, Dr. Sawan Sen, Dr. Tapan Santra, Dr. Tapas Haldar are the faculty members under Electrical Engineering Department.",
-                "Faculty or Teaching staffs under the EE Department are Prof.(Dr.) Shib Sankar Saha, Dr. Barun Mandal, Mr. Bikash Patel, Prof.(Dr.) Provas Kumar Roy, Dr. Parthasarathi Bera, Prof.(Dr.) Pradip Kumar Das, Dr. Pritam Kumar Gayen, Dr. Sawan Sen, Dr. Tapan Santra, Dr. Tapas Haldar "
+                "Prof. Dr. Shib Sankar Saha, Dr. Barun Mandal, Mr. Bikash Patel, Prof. Dr. Provas Kumar Roy, Dr. Parthasarathi Bera, Prof. Dr. Pradip Kumar Das, Dr. Pritam Kumar Gayen, Dr. Sawan Sen, Dr. Tapan Santra, Dr. Tapas Haldar are the faculty members under Electrical Engineering Department.",
+                "Faculty or Teaching staffs under the EE Department are Prof. Dr. Shib Sankar Saha, Dr. Barun Mandal, Mr. Bikash Patel, Prof. Dr. Provas Kumar Roy, Dr. Parthasarathi Bera, Prof. Dr. Pradip Kumar Das, Dr. Pritam Kumar Gayen, Dr. Sawan Sen, Dr. Tapan Santra, Dr. Tapas Haldar "
             ]
         },
         {
@@ -701,8 +428,8 @@
                 "Who are the faculty members in Mechanical Engineering Department"
             ],
             "responses": [
-                "Prof.(Dr.) Santanu Das, Prof.(Dr.) Debojyoti Mitra, Dr. Sanchayan Mukherjee, Dr. Arup Kumar Biswas, Dr. Tridibesh Das, Dr. Arijit Dutta, Mr. Bidhan Chandra Biswas, Mr. Debasish Biswas, Mr. Samir Chakravarti, Dr. Sibsankar Dasmahapatra, Mr. Sirshendu Mahato are the faculty members under Mechanical Engineering Department.",
-                "Faculty or Teaching staffs under the ME Department are Prof.(Dr.) Santanu Das, Prof.(Dr.) Debojyoti Mitra, Dr. Sanchayan Mukherjee, Dr. Arup Kumar Biswas, Dr. Tridibesh Das, Dr. Arijit Dutta, Mr. Bidhan Chandra Biswas, Mr. Debasish Biswas, Mr. Samir Chakravarti, Dr. Sibsankar Dasmahapatra, Mr. Sirshendu Mahato."
+                "Prof. Dr. Santanu Das, Prof. Dr. Debojyoti Mitra, Dr. Sanchayan Mukherjee, Dr. Arup Kumar Biswas, Dr. Tridibesh Das, Dr. Arijit Dutta, Mr. Bidhan Chandra Biswas, Mr. Debasish Biswas, Mr. Samir Chakravarti, Dr. Sibsankar Dasmahapatra, Mr. Sirshendu Mahato are the faculty members under Mechanical Engineering Department.",
+                "Faculty or Teaching staffs under the ME Department are Prof. Dr. Santanu Das, Prof. Dr. Debojyoti Mitra, Dr. Sanchayan Mukherjee, Dr. Arup Kumar Biswas, Dr. Tridibesh Das, Dr. Arijit Dutta, Mr. Bidhan Chandra Biswas, Mr. Debasish Biswas, Mr. Samir Chakravarti, Dr. Sibsankar Dasmahapatra, Mr. Sirshendu Mahato."
             ]
         },
         {
@@ -818,7 +545,7 @@
                 "How can I do masters in KGEC?"
             ],
             "responses": [
-                "Admission for MTech is taken through GRADUATE APTITUDE TEST ENGINEERING (GATE).",
+                "Admission for MTech is taken through GATE(GRADUATE APTITUDE TEST ENGINEERING).",
                 "You can take admission for MTech in KGEC by appearing for GATE.",
                 "You need to appear for GATE exams to get admission in MTech."
             ]
@@ -877,7 +604,7 @@
                 "All hostels in KGEC"
             ],
             "responses": [
-                "Acharya Prafulla Chandra Roy Hall, Rishi Bankim Chandra Hall, Raja Rammohan Roy Hall, Pritilata Chhatrinibas, Vidyasagar Chhatrabas, Type IV Boys Hostel"
+                "Acharya Prafulla Chandra Roy Hall, Rishi Bankim Chandra Hall, Raja Rammohan Roy Hall, Pritilata Chhatrinibas, Vidyasagar Chhatrabas, Type IV Boys Hostel are the hostels in KGEC."
             ]
         },
         {
@@ -953,7 +680,7 @@
                 "What is the location of VC Hall"
             ],
             "responses": [
-                " Silpanchal Station Rd, Block D, Kalyani, West Bengal 741235"
+                "Silpanchal Station Rd, Block D, Kalyani, West Bengal 741235"
             ]
         },
         {
@@ -978,7 +705,7 @@
         {
             "tag": "Type IV Hall",
             "patterns": [
-                "Is Type IV  boys hostel"
+                "Is Type IV boys hostel"
             ],
             "responses": [
                 "Yes"
@@ -1028,7 +755,8 @@
                 "Name some clubs in KGEC"
             ],
             "responses": [
-                "KGEC has 10 clubs"
+                "KGEC has 10 clubs. They are Gaming club NoScope, Quizzing club Les-quizerables, Mathematics club Infinitio, Astronomy club Nova, Music club Riyaz, Dance club Elysium, Art club Chitrank, Literary club Litmus, Robotics club Robotics-Society and finally Photography club Shutterbug",
+                "Gaming club NoScope, Quizzing club Les-quizerables, Mathematics club Infinitio, Astronomy club Nova, Music club Riyaz, Dance club Elysium, Art club Chitrank, Literary club Litmus, Robotics club Robotics-Society, Photography club Shutterbug are the clubs in KGEC"
             ]
         }
     ]
