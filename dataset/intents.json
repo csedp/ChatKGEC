@@ -10,12 +10,10 @@
                 "Hello there"
             ],
             "responses": [
-                "Good to see you again",
-                "Hi there, how can I help?",
-                "Hi there, what can I do for you?",
-                "Hello, how can I help you?",
+                "Hi there, how can I help",
+                "Hi there, what can I do for you",
+                "Hello, how can I help you",
                 "Namaste",
-                "How are you doing?",
                 "Greetings!"
             ]
         },
@@ -63,10 +61,10 @@
         {
             "tag": "options",
             "patterns": [
-                "How you could help me?",
-                "What can you do?",
-                "What help you provide?",
-                "How you can be helpful?",
+                "How you could help me",
+                "What can you do",
+                "What help you provide",
+                "How you can be helpful",
                 "What support is offered"
             ],
             "responses": [
@@ -87,8 +85,8 @@
                 "My name is Anuradha, I am a Deep-Learning chatbot",
                 "Hi, I'm Anuradha, a Deep-Learning chatbot",
                 "I'm Anuradha... here to help",
-                "I'm Anuradha, your personal assistant. How can I help you?",
-                "I'm Anuradha. But enough about me... how can I help you?"
+                "I'm Anuradha, your personal assistant. How can I help you",
+                "I'm Anuradha. But enough about me... how can I help you"
             ]
         },
         {
@@ -124,11 +122,9 @@
         {
             "tag": "courses-undergraduate",
             "patterns": [
-                "What are the undergraduate courses offered in KGEC",
-                "Which are the different undergraduate courses offered in KGEC",
-                "Which are the different undergraduate courses in KGEC",
-                "What are the undergraduate degree courses offered in KGEC",
-                "What are the undergraduate specialisations in Engineering offered in KGEC"
+                "undergraduate courses offered in KGEC",
+                "undergraduate courses in KGEC",
+                "undergraduate specialisations in Engineering offered in KGEC"
             ],
             "responses": [
                 "Undergraduate courses are offered in KGEC in the field of Engineering. In undergraduate courses KGEC offers B.Tech degree only.",
@@ -139,11 +135,9 @@
         {
             "tag": "courses-postgraduate",
             "patterns": [
-                "What are the postgraduate courses offered in KGEC",
-                "Which are the different postgraduate courses offered in KGEC",
-                "Which are the different postgraduate courses in KGEC",
-                "What are the postgraduate degree courses offered in KGEC",
-                "What are the postgraduate specialisations in Engineering offered in KGEC"
+                "postgraduate courses offered in KGEC",
+                "postgraduate courses in KGEC",
+                "postgraduate specialisations in Engineering offered in KGEC"
             ],
             "responses": [
                 "Postgraduate courses are offered in KGEC in the field of Engineering. In postgraduate courses KGEC offers M.Tech and MCA degree only.",
@@ -154,11 +148,10 @@
         {
             "tag": "fees-cse",
             "patterns": [
-                "What is the fee structure for B.Tech CSE in KGEC",
-                "How much is the fee for B.Tech CSE in KGEC",
-                "Fees for B.Tech CSE in KGEC",
+                "Fee structure for B.Tech CSE KGEC",
+                "Fees B.Tech CSE KGEC",
                 "Fees of B.Tech CSE",
-                "B.Tech CSE fees in KGEC",
+                "B.Tech CSE KGEC fees",
                 "Fees B.Tech Computer Science and Engineering KGEC"
             ],
             "responses": [
@@ -170,11 +163,10 @@
         {
             "tag": "fees-ece",
             "patterns": [
-                "What is the fee structure for B.Tech ECE in KGEC",
-                "How much is the fee for B.Tech ECE in KGEC",
-                "Fees for B.Tech ECE in KGEC",
+                "Fee structure for B.Tech ECE KGEC",
+                "Fees B.Tech ECE KGEC",
                 "Fees of B.Tech ECE",
-                "B.Tech ECE fees in KGEC",
+                "B.Tech ECE KGEC fees",
                 "Fees B.Tech Electronics and Communication Engineering KGEC"
             ],
             "responses": [
@@ -186,11 +178,10 @@
         {
             "tag": "fees-ee",
             "patterns": [
-                "What is the fee structure for B.Tech EE in KGEC",
-                "How much is the fee for B.Tech EE in KGEC",
-                "Fees for B.Tech EE in KGEC",
+                "Fee structure for B.Tech EE KGEC",
+                "Fees B.Tech EE KGEC",
                 "Fees of B.Tech EE",
-                "B.Tech EE fees in KGEC",
+                "B.Tech EE KGEC fees",
                 "Fees B.Tech Electrical Engineering KGEC"
             ],
             "responses": [
@@ -202,11 +193,10 @@
         {
             "tag": "fees-me",
             "patterns": [
-                "what is the fee structure for B.Tech ME in KGEC",
-                "How much is the fee for B.Tech ME in KGEC",
-                "Fees for B.Tech ME in KGEC",
+                "Fee structure for B.Tech ME KGEC",
+                "Fees B.Tech ME KGEC",
                 "Fees of B.Tech ME",
-                "B.Tech ME fees in KGEC",
+                "B.Tech ME KGEC fees",
                 "Fees B.Tech Mechanical Engineering KGEC"
             ],
             "responses": [
@@ -218,11 +208,10 @@
         {
             "tag": "fees-it",
             "patterns": [
-                "What is the fee structure for B.Tech IT in KGEC",
-                "How much is the fee for B.Tech IT in KGEC",
-                "Fees for B.Tech IT in KGEC",
+                "Fee structure for B.Tech IT KGEC",
+                "Fees B.Tech IT KGEC",
                 "Fees for B.Tech IT",
-                "B.Tech IT fees in KGEC",
+                "B.Tech IT KGEC fees",
                 "Fees B.Tech Information Technology KGEC"
             ],
             "responses": [
@@ -235,8 +224,8 @@
             "tag": "departments",
             "patterns": [
                 "What are the departments in KGEC",
-                "Which are the different departments in KGEC",
-                "Under which departments the subjects taught are classified in KGEC?"
+                "different departments in KGEC",
+                "departments in KGEC"
             ],
             "responses": [
                 "The Departments in KGEC are Computer Science and Engineering, Information Technology, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering, Physics, Chemistry, Mathematics, Humanities, Computer Applications",
@@ -248,11 +237,9 @@
             "tag": "Contact",
             "patterns": [
                 "Where is KGEC located",
-                "How to contact KGEC",
+                "contact KGEC",
                 "Address of KGEC",
-                "Phone number of KGEC",
-                "Location of KGEC",
-                "Email of KGEC"
+                "Location of KGEC"
             ],
             "responses": [
                 "KGEC's address is Kalyani, Nadia, West Bengal, India, Pin-741235. Please contact on +91 3325821309 or email at contact@kgec.edu.in"
@@ -261,12 +248,10 @@
         {
             "tag": "Training and Placement Cell",
             "patterns": [
-                "How to contact training and placement cell of KGEC",
-                "How to contact tnp cell of KGEC",
-                "Who is the training and placement officer of KGEC",
-                "Who is placement officer of KGEC",
-                "Phone number of training and placement cell of KGEC",
-                "Email id of training and placement cell of KGEC"
+                "contact training and placement cell of KGEC",
+                "contact tnp cell of KGEC",
+                "training and placement officer of KGEC",
+                "placement officer of KGEC"
             ],
             "responses": [
                 "Prof. Mrinal Kanti Kumar is the placement director of KGEC. You can email TnP Cell of KGEC at tnp_kgec@kgec.edu.in or call at 9433190264 or 3325821309",
@@ -288,60 +273,60 @@
             ]
         },
         {
-            "tag": "H.O.D of CSE",
+            "tag": "HOD of CSE",
             "patterns": [
-                "Who is the Head of the Department of CSE Department?",
-                "Who is the H.O.D of the CSE Department?",
-                "Who is the H.O.D of the Computer Science and Engineering Department?",
-                "Who is the Head of the Department of the Computer Science and Engineering Department?"
+                "HOD of CSE Department",
+                "HOD of Computer Science and Engineering",
+                "HOD CSE",
+                "Computer Science and Engineering HOD"
             ],
             "responses": [
                 "Dr. Koushik Dasgupta sir is the H.O.D of Computer Science and Engineering Department."
             ]
         },
         {
-            "tag": "H.O.D of IT",
+            "tag": "HOD of IT",
             "patterns": [
-                "Who is the Head of the Department of IT Department?",
-                "Who is the H.O.D of the IT Department?",
-                "Who is the H.O.D of the Information Technology Department?",
-                "Who is the Head of the Department of the Information Technology Department?"
+                "HOD of IT Department",
+                "HOD of Information Technology",
+                "HOD IT",
+                "Information Technology HOD"
             ],
             "responses": [
                 "Dr. Malabika Sengupta madam is the H.O.D of Information Technology Department."
             ]
         },
         {
-            "tag": "H.O.D of ECE",
+            "tag": "HOD of ECE",
             "patterns": [
-                "Who is the Head of the Department of ECE Department?",
-                "Who is the H.O.D of the ECE Department?",
-                "Who is the H.O.D of the Electronics and Communication Engineering Department?",
-                "Who is the Head of the Department of the Electronics and Communication Engineering Department?"
+                "HOD of ECE Department",
+                "HOD of Electronics and Communication Engineering",
+                "HOD ECE",
+                "Electronics and Communication Engineering HOD"
             ],
             "responses": [
                 "Prof. Sukla Basu madam is the H.O.D of Electronics and Communication Engineering Department."
             ]
         },
         {
-            "tag": "H.O.D of EE",
+            "tag": "HOD of EE",
             "patterns": [
-                "Who is the Head of the Department of EE Department?",
-                "Who is the H.O.D of the EE Department?",
-                "Who is the H.O.D of the Electrical Engineering Department?",
-                "Who is the Head of the Department of the Electrical Engineering Department?"
+                "HOD of EE Department",
+                "HOD of Electrical Engineering",
+                "HOD EE",
+                "Electrical Engineering HOD"
             ],
             "responses": [
                 "Mr. Shib Sankar Saha sir is the H.O.D of Electrical Engineering Department."
             ]
         },
         {
-            "tag": "H.O.D of ME",
+            "tag": "HOD of ME",
             "patterns": [
-                "Who is the Head of the Department of ME Department?",
-                "Who is the H.O.D of the ME Department?",
-                "Who is the H.O.D of the Mechanical Engineering Department?",
-                "Who is the Head of the Department of the Mechanical Engineering Department?"
+                "HOD of ME Department",
+                "HOD of Mechanical Engineering",
+                "HOD ME",
+                "Mechanical Engineering HOD"
             ],
             "responses": [
                 "Mr. Santanu Das sir is the H.O.D of Mechanical Engineering Department."
@@ -350,14 +335,14 @@
         {
             "tag": "Staffs of CSE",
             "patterns": [
-                "Who are the faculties in CSE Department",
-                "Who are the teaching members in CSE Department",
-                "Who are the teaching staffs in CSE Department",
-                "Who are the faculty members in CSE Department",
-                "Who are the faculties in Computer Science and Engineering Department",
-                "Who are the teaching members in Computer Science and Engineering Department",
-                "Who are the teaching staffs in Computer Science and Engineering Department",
-                "Who are the faculty members in Computer Science and Engineering Department"
+                "faculties in CSE Department",
+                "teaching members in CSE Department",
+                "teaching staffs in CSE Department",
+                "faculty members in CSE Department",
+                "faculties in Computer Science and Engineering Department",
+                "teaching members in Computer Science and Engineering Department",
+                "teaching staffs in Computer Science and Engineering Department",
+                "faculty members in Computer Science and Engineering Department"
             ],
             "responses": [
                 "Prof. Swapan Kumar Mondal, Dr. Malay Kumar Pakhira, Dr. Kousik Dasguspta, Mr. Supriyo Banerjee, Mrs. Manju Biswas, Dr. Sourav Banerjee, Dr. Anup Kumar Biswas, Mr. Kuntal Bhowmick, Dr. Arindrajit Pal are the faculty members under Computer Science and Engineering Department.",
@@ -367,14 +352,14 @@
         {
             "tag": "Staffs of IT",
             "patterns": [
-                "Who are the faculties in IT Department",
-                "Who are the teaching members in IT Department",
-                "Who are the teaching staffs in IT Department",
-                "Who are the faculty members in IT Department",
-                "Who are the faculties in Information Technology Department",
-                "Who are the teaching members in Information Technology Department",
-                "Who are the teaching staffs in Information Technology Department",
-                "Who are the faculty members in Information Technology Department"
+                "faculties in IT Department",
+                "teaching members in IT Department",
+                "teaching staffs in IT Department",
+                "faculty members in IT Department",
+                "faculties in Information Technology Department",
+                "teaching members in Information Technology Department",
+                "teaching staffs in Information Technology Department",
+                "faculty members in Information Technology Department"
             ],
             "responses": [
                 "Prof. Dr. Malabika Sengupta, Mr. Partha Sarathi Banerjee, Dr. Satyendra Nath Mondal, Mr. Iqbal Quereshi, Mrs. Manisha Barman, Mr. Debabrata Chowdhury are the faculty members under Information Technology Department.",
@@ -384,14 +369,14 @@
         {
             "tag": "Staffs of ECE",
             "patterns": [
-                "Who are the faculties in ECE Department",
-                "Who are the teaching members in ECE Department",
-                "Who are the teaching staffs in ECE Department",
-                "Who are the faculty members in ECE Department",
-                "Who are the faculties in Electronics and Communication Engineering Department",
-                "Who are the teaching members in Electronics and Communication Engineering Department",
-                "Who are the teaching staffs in Electronics and Communication Engineering Department",
-                "Who are the faculty members in Electronics and Communication Engineering Department"
+                "faculties in ECE Department",
+                "teaching members in ECE Department",
+                "teaching staffs in ECE Department",
+                "faculty members in ECE Department",
+                "faculties in Electronics and Communication Engineering Department",
+                "teaching members in Electronics and Communication Engineering Department",
+                "teaching staffs in Electronics and Communication Engineering Department",
+                "faculty members in Electronics and Communication Engineering Department"
             ],
             "responses": [
                 "Prof. Dr. Sukla Basu, Prof. Dr. Angsuman Sarkar, Mr. Anup Mallick, Dr. Subhasish Maitra, Dr. Sandip Nandi, Dr. Bandana Barman, Dr. Kabita Purkait, Dr. Himadri Shekhar Dutta, Dwaipayan Ghosh are the faculty members under Electronics and Communication Engineering Department.",
@@ -401,14 +386,10 @@
         {
             "tag": "Staffs of EE",
             "patterns": [
-                "Who are the faculties in EE Department",
-                "Who are the teaching members in EE Department",
-                "Who are the teaching staffs in EE Department",
-                "Who are the faculty members in EE Department",
-                "Who are the faculties in Electrical Engineering Department",
-                "Who are the teaching members in Electrical Engineering Department",
-                "Who are the teaching staffs in Electrical Engineering Department",
-                "Who are the faculty members in Electrical Engineering Department"
+                "faculties in Electrical Engineering Department",
+                "teaching members in Electrical Engineering Department",
+                "teaching staffs in Electrical Engineering Department",
+                "faculty members in Electrical Engineering Department"
             ],
             "responses": [
                 "Prof. Dr. Shib Sankar Saha, Dr. Barun Mandal, Mr. Bikash Patel, Prof. Dr. Provas Kumar Roy, Dr. Parthasarathi Bera, Prof. Dr. Pradip Kumar Das, Dr. Pritam Kumar Gayen, Dr. Sawan Sen, Dr. Tapan Santra, Dr. Tapas Haldar are the faculty members under Electrical Engineering Department.",
@@ -418,14 +399,10 @@
         {
             "tag": "Staffs of ME",
             "patterns": [
-                "Who are the faculties in ME Department",
-                "Who are the teaching members in ME Department",
-                "Who are the teaching staffs in ME Department",
-                "Who are the faculty members in ME Department",
-                "Who are the faculties in Mechanical Engineering Department",
-                "Who are the teaching members in Mechanical Engineering Department",
-                "Who are the teaching staffs in Mechanical Engineering Department",
-                "Who are the faculty members in Mechanical Engineering Department"
+                "faculties in Mechanical Engineering Department",
+                "teaching members in Mechanical Engineering Department",
+                "teaching staffs in Mechanical Engineering Department",
+                "faculty members in Mechanical Engineering Department"
             ],
             "responses": [
                 "Prof. Dr. Santanu Das, Prof. Dr. Debojyoti Mitra, Dr. Sanchayan Mukherjee, Dr. Arup Kumar Biswas, Dr. Tridibesh Das, Dr. Arijit Dutta, Mr. Bidhan Chandra Biswas, Mr. Debasish Biswas, Mr. Samir Chakravarti, Dr. Sibsankar Dasmahapatra, Mr. Sirshendu Mahato are the faculty members under Mechanical Engineering Department.",
@@ -435,14 +412,10 @@
         {
             "tag": "Staffs of Physics",
             "patterns": [
-                "Who are the faculties in Physics Department",
-                "Who are the teaching members in Physics Department",
-                "Who are the teaching staffs in Physics Department",
-                "Who are the faculty members in Physics Department",
-                "Who are the faculties in Physics Department",
-                "Who are the teaching members in Physics Department",
-                "Who are the teaching staffs in Physics Department",
-                "Who are the faculty members in Physics Department"
+                "faculties in Physics Department",
+                "teaching members in Physics Department",
+                "teaching staffs in Physics Department",
+                "faculty members in Physics Department"
             ],
             "responses": [
                 "Mr. Rathin Basak, Dr. Shirsendu Dey are the faculty members under Physics Department.",
@@ -452,14 +425,10 @@
         {
             "tag": "Staffs of Mathematics",
             "patterns": [
-                "Who are the faculties in Mathematics Department",
-                "Who are the teaching members in Mathematics Department",
-                "Who are the teaching staffs in Mathematics Department",
-                "Who are the faculty members in Mathematics Department",
-                "Who are the faculties in Mathematics Department",
-                "Who are the teaching members in Mathematics Department",
-                "Who are the teaching staffs in Mathematics Department",
-                "Who are the faculty members in Mathematics Department"
+                "faculties in Mathematics Department",
+                "teaching members in Mathematics Department",
+                "teaching staffs in Mathematics Department",
+                "faculty members in Mathematics Department"
             ],
             "responses": [
                 "Dr. Prasanta Basak is the only faculty member under Mathematics Department.",
@@ -469,14 +438,10 @@
         {
             "tag": "Staffs of Chemistry",
             "patterns": [
-                "Who are the faculties in Chemistry Department",
-                "Who are the teaching members in Chemistry Department",
-                "Who are the teaching staffs in Chemistry Department",
-                "Who are the faculty members in Chemistry Department",
-                "Who are the faculties in Chemistry Department",
-                "Who are the teaching members in Chemistry Department",
-                "Who are the teaching staffs in Chemistry Department",
-                "Who are the faculty members in Chemistry Department"
+                "faculties in Chemistry Department",
+                "teaching members in Chemistry Department",
+                "teaching staffs in Chemistry Department",
+                "faculty members in Chemistry Department"
             ],
             "responses": [
                 "Dr. Uttam Das, Dr. Sefali Saha are the faculty members under Chemistry Department.",
@@ -486,14 +451,10 @@
         {
             "tag": "Staffs of Humanities",
             "patterns": [
-                "Who are the faculties in Humanities Department",
-                "Who are the teaching members in Humanities Department",
-                "Who are the teaching staffs in Humanities Department",
-                "Who are the faculty members in Humanities Department",
-                "Who are the faculties in Humanities Department",
-                "Who are the teaching members in Humanities Department",
-                "Who are the teaching staffs in Humanities Department",
-                "Who are the faculty members in Humanities Department"
+                "faculties in Humanities Department",
+                "teaching members in Humanities Department",
+                "teaching staffs in Humanities Department",
+                "faculty members in Humanities Department"
             ],
             "responses": [
                 "Dr. Sourabh Kumar Das is the only faculty member under Humanities Department.",
@@ -503,14 +464,10 @@
         {
             "tag": "Staffs of Computer Applications",
             "patterns": [
-                "Who are the faculties in Computer Applications Department",
-                "Who are the teaching members in Computer Applications Department",
-                "Who are the teaching staffs in Computer Applications Department",
-                "Who are the faculty members in Computer Applications Department",
-                "Who are the faculties in Computer Applications Department",
-                "Who are the teaching members in Computer Applications Department",
-                "Who are the teaching staffs in Computer Applications Department",
-                "Who are the faculty members in Computer Applications Department"
+                "faculties in Computer Applications Department",
+                "teaching members in Computer Applications Department",
+                "teaching staffs in Computer Applications Department",
+                "faculty members in Computer Applications Department"
             ],
             "responses": [
                 "Dr. Partha Garai, Dr. Indrajit Bhattacharyya, Dr. Anuradha Banerjee, Dr. Surya Sarathi Das are the faculty members under Mathematics Department.",
@@ -520,11 +477,11 @@
         {
             "tag": "under-graduate admission",
             "patterns": [
-                "How to get admission in KGEC for undergraduate degree?",
-                "How to take admission for BTech in KGEC?",
-                "What is the process for admission in KGEC for engineering?",
-                "By which exam can I take admission in KGEC for engineering?",
-                "How can I do engineering in KGEC?"
+                "How to get admission in KGEC for undergraduate degree",
+                "How to take admission for BTech in KGEC",
+                "What is the process for admission in KGEC for engineering",
+                "By which exam can I take admission in KGEC for engineering",
+                "How can I do engineering in KGEC"
             ],
             "responses": [
                 "Admission is taken through WBJEE(West Bengal Joint Entrance Examination). Diploma holders can take admission through WB-JELET(West Bengal Joint Entrance Examination of Lateral Entry) in B.Tech 2nd year.",
@@ -535,14 +492,14 @@
         {
             "tag": "MTech admission",
             "patterns": [
-                "How to get admission in KGEC for MTech degree?",
-                "How to take admission for MTech in KGEC?",
-                "What is the process for admission in KGEC for masters?",
-                "By which exam can I take admission in KGEC for masters?",
-                "What is the process for admission in KGEC for MTech?",
-                "By which exam can I take admission in KGEC for MTech?",
-                "How can I do MTech in KGEC?",
-                "How can I do masters in KGEC?"
+                "How to get admission in KGEC for MTech degree",
+                "How to take admission for MTech in KGEC",
+                "What is the process for admission in KGEC for masters",
+                "By which exam can I take admission in KGEC for masters",
+                "What is the process for admission in KGEC for MTech",
+                "By which exam can I take admission in KGEC for MTech",
+                "How can I do MTech in KGEC",
+                "How can I do masters in KGEC"
             ],
             "responses": [
                 "Admission for MTech is taken through GATE(GRADUATE APTITUDE TEST ENGINEERING).",
@@ -553,11 +510,11 @@
         {
             "tag": "MCA admission",
             "patterns": [
-                "How to get admission in KGEC for master in computer science degree?",
-                "How to take admission for MCA in KGEC?",
-                "What is the process for admission in KGEC for MCA?",
-                "By which exam can I take admission in KGEC for MCA?",
-                "How can I do MCA in KGEC?"
+                "How to get admission in KGEC for master in computer science degree",
+                "How to take admission for MCA in KGEC",
+                "What is the process for admission in KGEC for MCA",
+                "By which exam can I take admission in KGEC for MCA",
+                "How can I do MCA in KGEC"
             ],
             "responses": [
                 "Admission is taken through JECA (West Bengal Joint Entrance Exam MCA). Candidate must acquire 1st class in BSC.",
@@ -570,10 +527,10 @@
         {
             "tag": "post-graduate admission",
             "patterns": [
-                "What are the post-graduate courses available in KGEC?",
-                "What are the master courses available in KGEC?",
-                "What can I do in KGEC after engineering?",
-                "What can I do in KGEC after BTech?"
+                "What are the post-graduate courses available in KGEC",
+                "What are the master courses available in KGEC",
+                "What can I do in KGEC after engineering",
+                "What can I do in KGEC after BTech"
             ],
             "responses": [
                 "You can do MTech or MCA after your engineering in KGEC",
@@ -585,10 +542,8 @@
         {
             "tag": "Number of Hostels",
             "patterns": [
-                "How many hostels are there in kgec",
-                "Number of hostels in kgec",
-                "Are there hostels in KGEC",
-                "How many hostels are there in KGEC?"
+                "Number of hostels in KGEC",
+                "How many hostels are there in KGEC"
             ],
             "responses": [
                 "6 hostels are there in KGEC.",
@@ -726,7 +681,7 @@
             "patterns": [
                 "Name of KGEC's library",
                 "library in KGEC",
-                "What is the name of library in KGEC?"
+                "What is the name of library in KGEC"
             ],
             "responses": [
                 "KGEC Central Library",
@@ -738,7 +693,7 @@
             "patterns": [
                 "Name of the annual fest in kgec",
                 "Annual Festival in kgec",
-                "What is the name of the annual fest in KGEC?",
+                "What is the name of the annual fest in KGEC",
                 "Tell me about the annual fest in KGEC",
                 "Tell me about Espektro"
             ],
