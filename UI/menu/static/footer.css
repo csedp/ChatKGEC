@@ -1,0 +1,99 @@
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:lightsteelblue; 
+    color:black; 
+    border-radius: 20px;
+}
+
+#e {
+    text-align:center;
+    margin: 0 auto 10px;
+    position:relative;
+    color:navy;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bolder;
+}
+
+#e::after {
+    content:'';
+    background:red;
+    width: 120px;
+    height: 2px;
+    border-radius: 5px;
+    position:absolute;
+    bottom: 0;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.imag:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+a:hover{
+    text-decoration: none!important;
+    list-style: none;
+}
+
+.fn{
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 3px;
+    font-size: 1em;
+}
+
+.fn-1{
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 3px;
+    font-size: 1em;
+}
+
+.links{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 3px;
+    font-size: 1em;
+}
+
+.links:hover{
+    color: red !important;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+.communication{
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 3px;
+    font-size: 1em;
+}
+
+.communication:hover{
+    color: red !important;
+}
+
+/* back to top button */
+
+#btn-back-to-top {
+    color: navy !important;
+    background-color: white !important;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    z-index: 9999;
+}
+#btn-back-to-top:hover {
+    transform: scale(1);
+    background-color: navy !important;
+    color: white !important;
+    transition: transform 0.5s;
+}

@@ -1,0 +1,120 @@
+*{
+  margin: 0 0;
+  padding: 0 0;
+  box-sizing: border-box;
+  font-family: 'Libre Bodoni', serif;
+}
+
+body, #body {
+  background-image:
+  radial-gradient(50% 30% ellipse at center top, #3d32c0ca 0%, rgba(53, 103, 195, 0.555) 100%),
+  radial-gradient(60% 50% ellipse at center bottom, #646262 0%, #000000 100%);
+  background-attachment: fixed;
+}
+
+.cont_1 {
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+}
+
+#h {
+  text-align:center;
+  margin: 0 auto 30px;
+  position:relative;
+  line-height: 60px;
+  color:navy;
+  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bolder;
+}
+
+#h::after {
+  content:'';
+  background:red;
+  width: 280px;
+  height: 5px;
+  border-radius: 5px;
+  position:absolute;
+  bottom: 0;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.desc{
+  font-size: 18px;
+  color: #3d32c0;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+}
+
+.icon {
+  position: relative;
+  bottom: 11px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.about_us {
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  position: relative;
+  bottom: 35px;
+}
+
+.card{
+  background-color: lightsteelblue;
+}
+
+.card:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  background-color: aquamarine;
+}
+
+.card-title{
+  font-size: 20px;
+}
+
+#btn {
+  margin-top: 36px;
+  margin-bottom: 45px;
+  border: none;
+  color: white;
+}
+
+#btn:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.header {
+  padding-top: 40px;
+}
+
+.card-subtitle {
+  justify-content: center;
+}
+
+.iml:hover, .imr:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
