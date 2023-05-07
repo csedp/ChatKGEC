@@ -1,63 +1,79 @@
 *{
-  margin: 0 0;
-  padding: 0 0;
-  box-sizing: border-box;
-  font-family: 'Libre Bodoni', serif;
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: 'Libre Bodoni', serif;
 }
 
-body, #body {
-  background-image:
-  radial-gradient(50% 30% ellipse at center top, #3d32c0ca 0%, rgba(53, 103, 195, 0.555) 100%),
-  radial-gradient(60% 50% ellipse at center bottom, #646262 0%, #000000 100%);
-  background-attachment: fixed;
-  padding-top: 150px;
+/*Carousel*/
+
+.carousel-inner img{
+    opacity: 0.6;
 }
 
-.cont_1 {
-  background-color: white;
-  text-align: center;
-  border-radius: 20px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-  margin-bottom: 50px;
+.carousel-caption {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Libre Bodoni', serif;
+    border-radius: 100%;
+    margin-bottom: 200px;
+}
+
+.carousel-caption:hover {
+    background-color: lightsteelblue !important;
+    opacity: 0.5;
+    transition: background-color 0.5s !important;
+}
+
+/*Categories*/
+
+a {
+    text-decoration: none!important;
+}
+
+.card-title {
+    color: red;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 20px;
 }
 
 #h {
-  text-align:center;
-  margin: 0 auto 30px;
-  position:relative;
-  line-height: 60px;
-  color:navy;
-  font-size: 40px;
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: bolder;
+    text-align:center;
+    margin: 0 auto 80px;
+    position:relative;
+    line-height: 60px;
+    color:navy;
+    font-size: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bolder;
 }
 
 #h::after {
-  content:'';
-  background:red;
-  width: 280px;
-  height: 5px;
-  border-radius: 5px;
-  position:absolute;
-  bottom: 0;
-  left:50%;
-  transform:translateX(-50%);
+    content:'';
+    background:red;
+    width: 280px;
+    height: 5px;
+    border-radius: 5px;
+    position:absolute;
+    bottom: 0;
+    left:50%;
+    transform:translateX(-50%);
 }
 
-#btn {
-  margin-top: 36px;
-  margin-bottom: 45px;
-  border: none;
-  color: white;
+#c:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
 }
 
-#btn:hover {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
+.card {
+    cursor: pointer;
 }
 
-.header {
-  padding-top: 40px;
+.card-img-top{
+    object-fit: cover;
 }
 
+#l {
+    font-size: 1.3em;
+}

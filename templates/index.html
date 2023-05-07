@@ -16,7 +16,7 @@
 
         <!-- External CSS files -->
         <link rel="stylesheet" href="{% static 'navbar.css' %}">
-        <link rel="stylesheet" href="{% static 'index1.css' %}">
+        <link rel="stylesheet" href="{% static 'index.css' %}">
         <link rel="stylesheet" href="{% static 'footer.css' %}">
 
         <!-- Google Fonts -->
@@ -35,10 +35,10 @@
     <body>
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="body">
             <div class="container-fluid">
-                <img src="media/kgeclogo.jpg" height="40px" width="40px" alt="logo">
-                <a class="navbar-brand" href="">&nbsp;&nbsp;Kalyani Government Engineering College</a>
+                <img src="media/kgeclogo.jpg" height="40px" width="40px" alt="logo" />
+                <a class="navbar-brand" href="{% url 'home' %}">&nbsp;&nbsp;&nbsp;&nbsp;Kalyani Government Engineering College</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -47,18 +47,18 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href=""><i class="fa fa-home"
+                            <a class="nav-link active" aria-current="page" href="{% url 'home' %}"><i class="fa fa-home"
                                     aria-hidden="true"></i>&nbsp;&nbsp;Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="{%url 'chat'%}"><i class="fas fa-comment"
+                            <a class="nav-link active" href="{%url 'chat' %}"><i class="fas fa-comment"
                                     aria-hidden="true"></i>&nbsp;&nbsp;Chat With Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="{%url 'about' %}"><i class="fa fa-info-circle"
+                            <a class="nav-link active" href="{% url 'about' %}"><i class="fa fa-info-circle"
                                     aria-hidden="true"></i>&nbsp;&nbsp;About Us</a>
                         </li>
-
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -126,13 +126,13 @@
                     <div class="col-md-4 text-center">
                         <div class="footer-links">
                             <h3 class="text-bold" id="e">QUICK LINKS</h3><br>
-                            <a href="" class="links">
+                            <a href="{% url 'home' %}" class="links">
                                 <p>HOME</p>
                             </a>
-                            <a href="" class="links">
-                                <p>MENU</p>
+                            <a href="{%url 'chat' %}" class="links">
+                                <p>CHAT</p>
                             </a>
-                            <a href="" class="links">
+                            <a href="{% url 'about' %}" class="links">
                                 <p>ABOUT US</p>
                             </a>
                         </div>
@@ -142,10 +142,10 @@
                             <h3 class="text-bold" id="e">CONTACT US</h3><br>
                             <p>
                                 <i class="fa fa-phone" aria-hidden="true"></i> <a class="communication"
-                                    href="tel:#">+91-9876-543-210</a>
+                                    href="tel:#">&nbsp;+91-8697-785-380</a>
                             </p>
                             <p><i class="fa fa-envelope" aria-hidden="true"></i> <a class="communication"
-                                    href="mailto:#">csedp@gmail.com</a>
+                                    href="mailto:#">&nbsp;debjitpal5040@gmail.com</a>
                             </p>
                             <!-- Linkedin -->
                             <a href="https://www.linkedin.com/in/rajonya-mondal-528368191/"><img class="imag"
@@ -159,10 +159,6 @@
                             <a href="https://twitter.com/debjitpal5040"><img class="imag"
                                     src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter2_colored_svg-512.png"
                                     height="40px" width="40px"></a>&nbsp;&nbsp;&nbsp;
-                            <!-- Instagram -->
-                            <a href="https://www.instagram.com/silver_shades7009/"><img class="imag"
-                                    src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-512.png"
-                                    height="40px" width="40px"></a>&nbsp;&nbsp;&nbsp;
                             <!-- Facebook -->
                             <a href="https://www.facebook.com/saheli.saha.1232"><img class="imag"
                                     src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png"
@@ -175,7 +171,7 @@
             <!-- Copyright -->
             <div class="row mt-4">
                 <div class="text-center p-3">
-                    <h6 class="fn"><b><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp;2022. All Rights
+                    <h6 class="fn"><b><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp;2023. All Rights
                             Reserved</b></h6>
                     <p class="fn"><b>Crafted with love by CSE DP (Team 2K19-2K23)</b></p>
                 </div>
@@ -187,11 +183,6 @@
 
         <!-- Font Awesome JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-        <!-- External JS files -->
-        <script src="{% static 'jquery.js' %}"></script>
-        <script src="{% static 'script.js' %}"></script>
-        <script src="{% static 'button.js' %}"></script>
 
         <!-- No Script -->
         <noscript>Please enable JavaScript in your browser to view this page</noscript>

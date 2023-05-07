@@ -1,7 +1,7 @@
 footer {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color:lightsteelblue; 
+    background-color:gray; 
     color:black; 
     border-radius: 20px;
 }
@@ -60,7 +60,7 @@ a:hover{
 }
 
 .links:hover{
-    color: red !important;
+    color: greenyellow !important;
     transform: scale(1.1);
     transition: transform 0.5s;
 }
@@ -73,27 +73,5 @@ a:hover{
 }
 
 .communication:hover{
-    color: red !important;
-}
-
-/* back to top button */
-
-#btn-back-to-top {
-    color: navy !important;
-    background-color: white !important;
-    position: fixed;
-    bottom: 20px;
-    right: 40px;
-    width: 120px;
-    height: 40px;
-    font-size: 15px;
-    padding-left: 0px;
-    padding-right: 0px;
-    z-index: 9999;
-}
-#btn-back-to-top:hover {
-    transform: scale(1);
-    background-color: navy !important;
-    color: white !important;
-    transition: transform 0.5s;
+    color: greenyellow !important;
 }

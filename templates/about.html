@@ -37,8 +37,8 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-light sticky-top" id="body">
             <div class="container-fluid">
-                <img src="media/images/kgeclogo.jpg" height="40px" width="40px" alt="logo" />
-                <a class="navbar-brand" href="{% url 'home'%}">&nbsp;&nbsp;Kalyani Government Engineering College</a>
+                <img src="media/kgeclogo.jpg" height="40px" width="40px" alt="logo" />
+                <a class="navbar-brand" href="{% url 'home' %}">&nbsp;&nbsp;&nbsp;&nbsp;Kalyani Government Engineering College</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -47,11 +47,11 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{% url 'home'%}"><i class="fa fa-home"
+                            <a class="nav-link active" aria-current="page" href="{% url 'home' %}"><i class="fa fa-home"
                                     aria-hidden="true"></i>&nbsp;&nbsp;Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="{%url 'chat'%}"><i class="fas fa-comment"
+                            <a class="nav-link active" href="{%url 'chat' %}"><i class="fas fa-comment"
                                     aria-hidden="true"></i>&nbsp;&nbsp;Chat With Us</a>
                         </li>
                         <li class="nav-item">
@@ -63,16 +63,6 @@
             </div>
         </nav>
 
-        {% for message in messages %}
-        <div class="container-fluid p-0">
-            <div class="alert {{ message.tags }} alert-dismissible" role="alert">
-                <button type="button" class="close" data-bs-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="True">&times;</span>
-                </button>
-                {{ message }}
-            </div>
-        </div>
-        {% endfor %}
 
         <div class="container mx-auto mt-5 col-md-10 mt-100 cont_1">
             <div class="header">
@@ -88,7 +78,30 @@
                 </p>
             </div>
             <div class="row" style="justify-content: center">
-                <div class="card col-md-3 mt-100 about_us">
+                <div class="card col-md-2 mt-100 about_us">
+                    <div class="card-content">
+                        <div class="card-body p-0">
+                            <div class="profile">
+                                <img src="https://user-images.githubusercontent.com/76846542/179280703-6647c61a-c894-4c5b-a963-054728d49e6e.png"
+                                    alt="Debjit Pal" />
+                            </div>
+                            <div class="card-title">
+                                Debjit Pal<br/><small>ML & NLP Expert</small>
+                            </div>
+                            <div class="card-subtitle">
+                                <!-- Linkedin -->
+                                <a href="https://www.linkedin.com/in/debjit-pal-539214192/"><img class="iml"
+                                        src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"
+                                        height="40px" width="40px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <!-- Github -->
+                                <a href="https://github.com/debjitpal5040"><img class="imr"
+                                        src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png"
+                                        height="40px" width="40px" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-md-2 mt-100 about_us">
                     <div class="card-content">
                         <div class="card-body p-0">
                             <div class="profile">
@@ -111,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card col-md-3 mt-100 about_us">
+                <div class="card col-md-2 mt-100 about_us">
                     <div class="card-content">
                         <div class="card-body p-0">
                             <div class="profile">
@@ -134,7 +147,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card col-md-3 mt-100 about_us">
+                <div class="card col-md-2 mt-100 about_us">
                     <div class="card-content">
                         <div class="card-body p-0">
                             <div class="profile">
@@ -157,30 +170,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="card col-md-3 mt-100 about_us">
-                    <div class="card-content">
-                        <div class="card-body p-0">
-                            <div class="profile">
-                                <img src="https://user-images.githubusercontent.com/76846542/179280703-6647c61a-c894-4c5b-a963-054728d49e6e.png"
-                                    alt="Debjit Pal" />
-                            </div>
-                            <div class="card-title">
-                                Debjit Pal<br /><small>Principal Designer</small>
-                            </div>
-                            <div class="card-subtitle">
-                                <!-- Linkedin -->
-                                <a href="https://www.linkedin.com/in/debjit-pal-539214192/"><img class="iml"
-                                        src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"
-                                        height="40px" width="40px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                <!-- Github -->
-                                <a href="https://github.com/debjitpal5040"><img class="imr"
-                                        src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png"
-                                        height="40px" width="40px" /></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
             <div class="ft">
                 <a href="#">
@@ -189,72 +178,59 @@
             </div>
         </div>
 
-        <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
-            <i class="fas fa-arrow-up"></i>&nbsp;Back to Top
-        </button>
-
         <!-- Footer -->
         <footer>
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 text-center">
                         <div class="footer-links">
-                            <h3 class="text-bold" id="e">WHO ARE WE?</h3>
-                            <br />
+                            <h3 class="text-bold" id="e">WHO ARE WE?</h3><br>
                             <p class="fn-1">
-                                We are a team of young and enthusiastic designers and
-                                developers. We believe in the power of design and we aim to
-                                provide a wide range of design solutions to our clients.
+                                We are a team of young and enthusiastic designers and developers. We believe in the
+                                power of design and we aim to provide a wide range of design solutions to our clients.
                             </p>
                         </div>
                     </div>
                     <div class="col-md-4 text-center">
                         <div class="footer-links">
-                            <h3 class="text-bold" id="e">QUICK LINKS</h3>
-                            <br />
-                            <a href="{% url 'home'%}" class="links">
+                            <h3 class="text-bold" id="e">QUICK LINKS</h3><br>
+                            <a href="{% url 'home' %}" class="links">
                                 <p>HOME</p>
                             </a>
-                            <a href="{%url 'chat'%}" class="links">
-                                <p>Chat with us</p>
+                            <a href="{%url 'chat' %}" class="links">
+                                <p>CHAT</p>
                             </a>
-                            <a href="{% url 'about'%}" class="links">
+                            <a href="{% url 'about' %}" class="links">
                                 <p>ABOUT US</p>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-4 text-center">
                         <div class="footer-links">
-                            <h3 class="text-bold" id="e">CONTACT US</h3>
-                            <br />
+                            <h3 class="text-bold" id="e">CONTACT US</h3><br>
                             <p>
-                                <i class="fa fa-phone" aria-hidden="true"></i>
-                                <a class="communication" href="tel:#">+91-9876-543-210</a>
+                                <i class="fa fa-phone" aria-hidden="true"></i> <a class="communication"
+                                    href="tel:#">&nbsp;+91-8697-785-380</a>
                             </p>
-                            <p>
-                                <i class="fa fa-envelope" aria-hidden="true"></i>
-                                <a class="communication" href="mailto:#">csedp@gmail.com</a>
+                            <p><i class="fa fa-envelope" aria-hidden="true"></i> <a class="communication"
+                                    href="mailto:#">&nbsp;debjitpal5040@gmail.com</a>
                             </p>
                             <!-- Linkedin -->
                             <a href="https://www.linkedin.com/in/rajonya-mondal-528368191/"><img class="imag"
                                     src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"
-                                    height="40px" width="40px" /></a>&nbsp;&nbsp;&nbsp;
+                                    height="40px" width="40px"></a>&nbsp;&nbsp;&nbsp;
                             <!-- Github -->
                             <a href="https://github.com/madhushaw1012"><img class="imag"
                                     src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png"
-                                    height="40px" width="40px" /></a>&nbsp;&nbsp;&nbsp;
+                                    height="40px" width="40px"></a>&nbsp;&nbsp;&nbsp;
                             <!-- Twitter -->
                             <a href="https://twitter.com/debjitpal5040"><img class="imag"
                                     src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter2_colored_svg-512.png"
-                                    height="40px" width="40px" /></a>&nbsp;&nbsp;&nbsp;
-                            <!-- Instagram -->
-                            <a href="https://www.instagram.com/silver_shades7009/"><img class="imag"
-                                    src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-512.png"
-                                    height="40px" width="40px" /></a>&nbsp;&nbsp;&nbsp;
+                                    height="40px" width="40px"></a>&nbsp;&nbsp;&nbsp;
                             <!-- Facebook -->
                             <a href="https://www.facebook.com/saheli.saha.1232"><img class="imag"
                                     src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png"
-                                    height="40px" width="40px" /></a>
+                                    height="40px" width="40px"></a>
                         </div>
                     </div>
                 </div>
@@ -263,10 +239,8 @@
             <!-- Copyright -->
             <div class="row mt-4">
                 <div class="text-center p-3">
-                    <h6 class="fn">
-                        <b><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp;2022. All
-                            Rights Reserved</b>
-                    </h6>
+                    <h6 class="fn"><b><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp;2023. All Rights
+                            Reserved</b></h6>
                     <p class="fn"><b>Crafted with love by CSE DP (Team 2K19-2K23)</b></p>
                 </div>
             </div>
@@ -277,9 +251,6 @@
 
         <!-- Font Awesome JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-        <!-- External JS files -->
-        <script src="{% static 'button.js' %}"></script>
 
         <!-- No Script -->
         <noscript>Please enable JavaScript in your browser to view this page</noscript>
