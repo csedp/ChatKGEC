@@ -23,6 +23,7 @@
 
         <!-- External CSS files -->
         <link rel="stylesheet" href="{% static 'navbar.css' %}">
+        
         <link rel="stylesheet" href="{% static 'index1.css' %}">
         <link rel="stylesheet" href="{% static 'footer.css' %}">
         <link rel="stylesheet" href="{% static 'owl.carousel.min.css' %}">
@@ -72,7 +73,7 @@
             </div>
         </nav>
 
-        {% for message in messages %}
+        <!-- {% for message in messages %}
         <div class="container-fluid p-0">
             <div class="alert {{ message.tags }} alert-dismissible" role="alert">
                 <button type="button" class="close" data-bs-dismiss="alert" aria-label="Close">
@@ -81,7 +82,7 @@
                 {{ message }}
             </div>
         </div>
-        {% endfor %}
+        {% endfor %} -->
 
         <!-- Carousel -->
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -128,6 +129,7 @@
             </button>
         </div>
 
+       
         <!-- Footer -->
         <footer>
             <div class="container">
@@ -215,6 +217,7 @@
         <script src="{% static 'owl.carousel.min.js' %}"></script>
         <script src="{% static 'script.js' %}"></script>
         <script src="{% static 'button.js' %}"></script>
+        <!-- <script src="{% static 'chat.js' %}"></script> -->
 
         <!-- No Script -->
     

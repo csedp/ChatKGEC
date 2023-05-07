@@ -21,10 +21,8 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-   # path('', views.index, name='index'),
-    path('index', views.index),
-    path('result', views.result),
     path('', views.index1, name='home'),
-    path('chat', views.index, name='chat'),
-    path('about', views.about, name='about' )
+    path('chat', views.chat, name='chat'),
+    path('about', views.about, name='about' ),
+    path('getResponse', views.getResponse, name="getResponse")
 ]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

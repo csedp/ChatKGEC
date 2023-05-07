@@ -1,4 +1,5 @@
 """views.py"""
+from django.http import HttpResponse
 import pyttsx3
 from django.shortcuts import render
 from random import choice
@@ -55,24 +56,33 @@ def index(req):
     """View function for home page of site."""
     return render(req, 'index.html')
 
-def predict(req):
+def predict(message):
     """View function for prediction page of site."""
-    message = req.POST['query']
+    
     intents = pred_class(message, words, classes)
     result = get_response(intents, data)
     # engine = pyttsx3.init()
     # engine.say(result)
     # engine.runAndWait()
     # engine = None
+    print(result)
     return result
 
 def result(pred):
     """View function for result page of site."""
     data = predict(pred)
-    return render(pred, 'result.html', {'data': data})
+    return render(pred, 'chat.html', {'data': data})
 
 def index1(req):
     return render(req,'index1.html')
 
 def about(req):
     return render(req, 'about.html')
+
+def chat(req):
+    return render(req, 'chat.html')
+
+def getResponse(request):
+    msg = request.GET.get('msg')
+    data = predict(msg)
+    return HttpResponse(data)
