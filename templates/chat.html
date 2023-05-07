@@ -1,50 +1,53 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-    {%load static %}
-<link rel="stylesheet" type="text/css" href="{%static 'chat.css'%}">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</head>
-<body>
-<div>
-<div id="chatbox">
-<p class="botText"><span>Hi! I'm ChatKGEC</span></p>
-</div>
-<div id="userInput">
-<input id="textInput" type="text" name="msg" placeholder="Message">
-<input type="submit" value="send"/>
-</div>
-<script>
-function getBotResponse() {
-var rawText = $("#textInput").val();
-var userHtml = '<p class="userText"><span>' + rawText + '</span></p>';
-$("#textInput").val("");
-$("#chatbox").append(userHtml);
-document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
-$.get("/getResponse", { msg: rawText }).done(function(data) {
-var botHtml = '<p class="botText"><span>' + data + '</span></p>';
-$("#chatbox").append(botHtml);
-let speech = new SpeechSynthesisUtterance();
-speech.lang = "en-IN";
-let voices = [];
-voices = window.speechSynthesis.getVoices();
-speech.voice = voices[0];
-speech.text = botHtml;
-window.speechSynthesis.speak(speech);
-document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
 
-});
-}
-$("#textInput").keypress(function(e) {
-if(e.which == 13) {
-getBotResponse();
-}
-});
-$("#buttonInput").click(function() {
-getBotResponse();
-})
-</script>
+    <head>
+        {%load static %}
+        <link rel="stylesheet" type="text/css" href="{%static 'chat.css'%}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
 
-</div>
-</body>
+    <body>
+        <div>
+            <div id="chatbox">
+                <p class="botText"><span>Hi! I'm ChatKGEC</span></p>
+            </div>
+            <div id="userInput">
+                <input id="textInput" type="text" name="msg" placeholder="Message">
+                <input type="submit" value="send" />
+            </div>
+            <script>
+                function getBotResponse() {
+                    var rawText = $("#textInput").val();
+                    var userHtml = '<p class="userText"><span>' + rawText + '</span></p>';
+                    $("#textInput").val("");
+                    $("#chatbox").append(userHtml);
+                    document.getElementById('userInput').scrollIntoView({ block: 'start', behavior: 'smooth' });
+                    $.get("/getResponse", { msg: rawText }).done(function (data) {
+                        var botHtml = '<p class="botText"><span>' + data + '</span></p>';
+                        $("#chatbox").append(botHtml);
+                        let speech = new SpeechSynthesisUtterance();
+                        speech.lang = "en-IN";
+                        let voices = [];
+                        voices = window.speechSynthesis.getVoices();
+                        speech.voice = voices[0];
+                        speech.text = botHtml;
+                        window.speechSynthesis.speak(speech);
+                        document.getElementById('userInput').scrollIntoView({ block: 'start', behavior: 'smooth' });
+
+                    });
+                }
+                $("#textInput").keypress(function (e) {
+                    if (e.which == 13) {
+                        getBotResponse();
+                    }
+                });
+                $("#buttonInput").click(function () {
+                    getBotResponse();
+                })
+            </script>
+
+        </div>
+    </body>
+
 </html>

@@ -73,9 +73,6 @@ def result(pred):
     data = predict(pred)
     return render(pred, 'chat.html', {'data': data})
 
-def index1(req):
-    return render(req,'index1.html')
-
 def about(req):
     return render(req, 'about.html')
 
