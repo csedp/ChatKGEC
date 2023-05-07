@@ -1,12 +1,11 @@
 """views.py"""
 from django.http import HttpResponse
-import pyttsx3
 from django.shortcuts import render
 from random import choice
 from numpy import array
 from keras.models import load_model
 from nltk import word_tokenize
-from anu.anuradha import words, classes, data, lemmatizer
+from chatKGEC.chatKGEC import words, classes, data, lemmatizer
 # load model
 model = load_model('notebook/model.h5')
 
@@ -58,20 +57,10 @@ def index(req):
 
 def predict(message):
     """View function for prediction page of site."""
-    
     intents = pred_class(message, words, classes)
     result = get_response(intents, data)
-    # engine = pyttsx3.init()
-    # engine.say(result)
-    # engine.runAndWait()
-    # engine = None
     print(result)
     return result
-
-def result(pred):
-    """View function for result page of site."""
-    data = predict(pred)
-    return render(pred, 'chat.html', {'data': data})
 
 def about(req):
     return render(req, 'about.html')

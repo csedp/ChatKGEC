@@ -60,53 +60,5 @@ train_y = array(list(training[:, 1]))
 input_shape = (len(train_X[0]),)
 output_shape = len(train_y[0])
 
-# import platform
-# import pyttsx3
-# import speech_recognition as sr
-
-# engine = pyttsx3.init()
-# r = sr.Recognizer()
-# mic = sr.Microphone()
-
-# if platform.system() == "Windows":
-#     engine.setProperty(
-#         'voice', r"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0")
-# elif platform.system() == "Darwin":
-#     engine.setProperty(
-#         'voice', "com.apple.speech.synthesis.voice.samantha")
-# else:
-#     pass
-
 TEXT = "chatKGEC is ready to chat!"
 print(TEXT)
-# engine.say(TEXT)
-# engine.runAndWait()
-
-# while True:
-#     # with mic as source:
-#     #     r.adjust_for_ambient_noise(source)
-#     #     r.dynamic_energy_threshold = True
-#     #     print("Say Now")
-#     #     audio = r.record(source, duration=5)
-#     try:
-#         # message = r.recognize_google(audio, language="en-IN")
-#         message = input("You : ")
-#         print("You :", message)
-#         intents = pred_class(message, words, classes)
-#         result = get_response(intents, data)
-#         if message == 'exit':
-#             TEXT = "Bye! take care"
-#             break
-#         else:
-#             TEXT = result
-#     # except sr.UnknownValueError:
-#     #     TEXT = "Sorry, I didn't get that"
-#     # except sr.RequestError as e:
-#     #     TEXT = "Sorry, can't connect to the service"
-#     # finally:
-#     #     try:
-#     #         print("chatKGEC :", TEXT)
-#     #         engine.say(TEXT)
-#     #         engine.runAndWait()
-#     #     except NameError:
-#     #         pass
