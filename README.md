@@ -1,4 +1,4 @@
-# Anuradha
+# ChatKGEC
 <b>Final year group project for CSE 2019-2023 batch.</b>
 ## Team Members
 - [Debjit Pal](https://github.com/debjitpal5040)

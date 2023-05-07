@@ -77,7 +77,7 @@ output_shape = len(train_y[0])
 # else:
 #     pass
 
-TEXT = "Anuradha is ready to chat!"
+TEXT = "chatKGEC is ready to chat!"
 print(TEXT)
 # engine.say(TEXT)
 # engine.runAndWait()
@@ -105,7 +105,7 @@ print(TEXT)
 #     #     TEXT = "Sorry, can't connect to the service"
 #     # finally:
 #     #     try:
-#     #         print("Anuradha :", TEXT)
+#     #         print("chatKGEC :", TEXT)
 #     #         engine.say(TEXT)
 #     #         engine.runAndWait()
 #     #     except NameError:
