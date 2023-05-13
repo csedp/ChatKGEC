@@ -22,7 +22,7 @@ h3 {
     background-color: black;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 60%;
     margin-top: 60px;
 }
 
@@ -34,17 +34,30 @@ h3 {
 }
 
 #textInput {
-    width: 87%;
+    width: 35vw;
     border: none;
-    border-bottom: 3px solid #009688;
+    border-bottom: 3px solid gold;
     font-family: monospace;
     font-size: 17px;
 }
 
+#textInput:focus {
+    background-color: lightskyblue;
+}
+
 #buttonInput {
-    padding: 3px;
-    font-family: monospace;
-    font-size: 17px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    font-size: 13px;
+    font-family: cursive;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#buttonInput:hover{
+    background-color: navy;
 }
 
 .userText {
@@ -56,7 +69,7 @@ h3 {
 }
 
 .userText span {
-    background-color: #009688;
+    background-color: blue;
     padding: 10px;
     border-radius: 2px;
 }
@@ -70,10 +83,15 @@ h3 {
 }
 
 .botText span {
-    background-color: #EF5350;
+    background-color: red;
     padding: 10px;
     border-radius: 2px;
+    width: 50vw;
 }
+
+
+
+
 
 #tidbit {
     position: absolute;
