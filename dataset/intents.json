@@ -128,7 +128,6 @@
                 "What are the undergraduate courses in KGEC",
                 "What are the undergraduate specialisations in Engineering offered in KGEC"
             ],
-
             "responses": [
                 "Undergraduate courses are offered in KGEC in the field of Engineering. In undergraduate courses KGEC offers B.Tech degree only.",
                 "Only B.Tech degree is offered in KGEC in the field of Engineering as an undergraduate course.",
@@ -701,13 +700,12 @@
                 "What is the name of the annual fest in KGEC",
                 "Tell me about the annual fest in KGEC",
                 "Tell me about Espektro",
-                "What are the parts of the annual fest",
+                "What are the parts of the annual fest"
             ],
             "responses": [
                 "Espektro KGEC is the annual fest of KGEC",
                 "Espektro KGEC is the annual fest of KGEC. It is a 3-4 days fest. It consists of one technical part, Techtix and one cultural part, Exotica and one sports part, Al-Hamra."
             ]
-         
         },
         {
             "tag": "clubs",
@@ -729,10 +727,8 @@
             ],
             "responses": [
                 "Dr. Koushik Dasgupta sir is the H.O.D of Computer Science and Engineering Department. Prof. Swapan Kumar Mondal, Dr. Malay Kumar Pakhira, Dr. Kousik Dasguspta, Mr. Supriyo Banerjee, Mrs. Manju Biswas, Dr. Sourav Banerjee, Dr. Anup Kumar Biswas, Mr. Kuntal Bhowmick, Dr. Arindrajit Pal are the faculty members under Computer Science and Engineering Department. Fees for B.Tech in Computer Science and Engineering is Rs. 52,155 for the whole 4 years."
-
             ]
         },
-
         {
             "tag": "IT",
             "patterns": [
@@ -741,7 +737,6 @@
             ],
             "responses": [
                 "Dr. Malabika Sengupta madam is the H.O.D of Information Technology Department. Prof. Dr. Malabika Sengupta, Mr. Partha Sarathi Banerjee, Dr. Satyendra Nath Mondal, Mr. Iqbal Quereshi, Mrs. Manisha Barman, Mr. Debabrata Chowdhury are the faculty members under Information Technology Department. Fees for B.Tech in Information Technology is Rs. 1,01,155 for the whole 4 years."
-
             ]
         },
         {
@@ -752,73 +747,61 @@
             ],
             "responses": [
                 "Prof. Sukla Basu madam is the H.O.D of Electronics and Communication Engineering Department. Prof. Dr. Sukla Basu, Prof. Dr. Angsuman Sarkar, Mr. Anup Mallick, Dr. Subhasish Maitra, Dr. Sandip Nandi, Dr. Bandana Barman, Dr. Kabita Purkait, Dr. Himadri Shekhar Dutta, Dwaipayan Ghosh are the faculty members under Electronics and Communication Engineering Department. Fees for B.Tech in Electronics and Communication Engineering is Rs. 52,155 for the whole 4 years."
-
             ]
         },
-        {   "tag": "ME",
+        {
+            "tag": "ME",
             "patterns": [
                 "Give some details of ME department",
                 "Tell me something about ME department"
             ],
             "responses": [
-                  "Mr. Santanu Das sir is the H.O.D of Mechanical Engineering Department. Prof. Dr. Santanu Das, Prof. Dr. Debojyoti Mitra, Dr. Sanchayan Mukherjee, Dr. Arup Kumar Biswas, Dr. Tridibesh Das, Dr. Arijit Dutta, Mr. Bidhan Chandra Biswas, Mr. Debasish Biswas, Mr. Samir Chakravarti, Dr. Sibsankar Dasmahapatra, Mr. Sirshendu Mahato are the faculty members under Mechanical Engineering Department. Fees for B.Tech in Mechanical Engineering is Rs. 27,655 for the whole 4 years."
-
+                "Mr. Santanu Das sir is the H.O.D of Mechanical Engineering Department. Prof. Dr. Santanu Das, Prof. Dr. Debojyoti Mitra, Dr. Sanchayan Mukherjee, Dr. Arup Kumar Biswas, Dr. Tridibesh Das, Dr. Arijit Dutta, Mr. Bidhan Chandra Biswas, Mr. Debasish Biswas, Mr. Samir Chakravarti, Dr. Sibsankar Dasmahapatra, Mr. Sirshendu Mahato are the faculty members under Mechanical Engineering Department. Fees for B.Tech in Mechanical Engineering is Rs. 27,655 for the whole 4 years."
             ]
         },
-
-        {   "tag": "EE",
+        {
+            "tag": "EE",
             "patterns": [
                 "Give some details of EE department",
                 "Tell me something about EE department"
             ],
             "responses": [
-                  "Mr. Shib Sankar Saha sir is the H.O.D of Electrical Engineering Department. Prof. Dr. Shib Sankar Saha, Dr. Barun Mandal, Mr. Bikash Patel, Prof. Dr. Provas Kumar Roy, Dr. Parthasarathi Bera, Prof. Dr. Pradip Kumar Das, Dr. Pritam Kumar Gayen, Dr. Sawan Sen, Dr. Tapan Santra, Dr. Tapas Haldar are the faculty members under Electrical Engineering Department. Fees for B.Tech in Electrical Engineering is Rs. 27,655 for the whole 4 years."
-
+                "Mr. Shib Sankar Saha sir is the H.O.D of Electrical Engineering Department. Prof. Dr. Shib Sankar Saha, Dr. Barun Mandal, Mr. Bikash Patel, Prof. Dr. Provas Kumar Roy, Dr. Parthasarathi Bera, Prof. Dr. Pradip Kumar Das, Dr. Pritam Kumar Gayen, Dr. Sawan Sen, Dr. Tapan Santra, Dr. Tapas Haldar are the faculty members under Electrical Engineering Department. Fees for B.Tech in Electrical Engineering is Rs. 27,655 for the whole 4 years."
             ]
         },
-
-        {   "tag": "fest",
+        {
+            "tag": "fest",
             "patterns": [
                 "Which artists have performed in Espektro till this day?",
                 "Which artists have made Espektro more memorable?",
                 "What celebrity bands or artists have come over to perform in Espektro pronites till present day?"
             ],
             "responses": [
-                "Shirley Setia, The Local Train, The folk Diaryz, Fakira, Trap, Shironamheen, Ash King, Aditi Singh Sharma are some of the big performances KGEC Espektro have witnessed this date." 
+                "Shirley Setia, The Local Train, The folk Diaryz, Fakira, Trap, Shironamheen, Ash King, Aditi Singh Sharma are some of the big performances KGEC Espektro have witnessed this date."
             ]
-
         },
-
-        { "tag": "airport distance",
-          "patterns": [ 
-            "How far is KGEC from Netaji Subhash Chandra Bose Kolkata International Airport?",
-            "How far is KGEC from the nearest Airport?"
-          ],
-          "responses": [
-             "KGEC is located nearly 50 kms away from Kolkata International Airport",
-             "The nearest airport Netaji Subhash Chandra Bose Kolkata International Airport which is nearly 50 kms far from KGEC",
-             "The nearest airport Netaji Subhash Chandra Bose Kolkata International Airport which is nearly 50 kms far from Kalyani Governement Engineering College"
-           ]
+        {
+            "tag": "airport distance",
+            "patterns": [
+                "How far is KGEC from Netaji Subhash Chandra Bose Kolkata International Airport?",
+                "How far is KGEC from the nearest Airport?"
+            ],
+            "responses": [
+                "KGEC is located nearly 50 kms away from Kolkata International Airport",
+                "The nearest airport Netaji Subhash Chandra Bose Kolkata International Airport which is nearly 50 kms far from KGEC",
+                "The nearest airport Netaji Subhash Chandra Bose Kolkata International Airport which is nearly 50 kms far from Kalyani Governement Engineering College"
+            ]
         },
-
-        { "tag": "distance from railway station",
-          "patterns": [
-            "What is the nearest Railway Station from KGEC?",
-            "How can we reach by rail route?",
-            "which are the railway stations convenient to reach KGEC"
-           ],
-           "responses": [
-            "Kalyani Junction, Kalyani Silpanchal, Kalyani Ghoshpara all the 3 stations are convenient to reach KGEC",
-           ]
+        {
+            "tag": "distance from railway station",
+            "patterns": [
+                "What is the nearest Railway Station from KGEC?",
+                "How can we reach by rail route?",
+                "which are the railway stations convenient to reach KGEC"
+            ],
+            "responses": [
+                "Kalyani Junction, Kalyani Silpanchal, Kalyani Ghoshpara all the 3 stations are convenient to reach KGEC"
+            ]
         }
-
-
-
-
-
-
-
-
-
     ]
 }

@@ -12,7 +12,7 @@ function getBotResponse() {
         let voices = [];
         voices = window.speechSynthesis.getVoices();
         speech.voice = voices[0];
-        speech.text = botHtml;
+        speech.text = data;
         window.speechSynthesis.speak(speech);
         document.getElementById('userInput').scrollIntoView({ block: 'start', behavior: 'smooth' });
 

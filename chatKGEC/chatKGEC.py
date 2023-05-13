@@ -1,14 +1,10 @@
+'''chatKGEC is a chatbot that can be used to answer queries related to KGEC'''
 from json import loads
 from random import shuffle
 from string import punctuation
 from nltk import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from numpy import array
-'''
-nltk.download("punkt")
-nltk.download("wordnet")
-nltk.download('omw-1.4')
-'''
 data = loads(open("dataset/intents.json", encoding="utf-8").read())
 lemmatizer = WordNetLemmatizer()
 # Each list to create

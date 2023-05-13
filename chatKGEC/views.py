@@ -1,7 +1,7 @@
 """views.py"""
+from random import choice
 from django.http import HttpResponse
 from django.shortcuts import render
-from random import choice
 from numpy import array
 from keras.models import load_model
 from nltk import word_tokenize
@@ -63,12 +63,15 @@ def predict(message):
     return result
 
 def about(req):
+    """View function for about page of site."""
     return render(req, 'about.html')
 
 def chat(req):
+    """View function for chat page of site."""
     return render(req, 'chat.html')
 
 def getResponse(request):
+    """Function for getting response from the model."""
     msg = request.GET.get('msg')
-    data = predict(msg)
-    return HttpResponse(data)
+    dat = predict(msg)
+    return HttpResponse(dat)
