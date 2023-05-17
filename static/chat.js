@@ -11,8 +11,9 @@ function getBotResponse() {
         speech.lang = "en-IN";
         let voices = [];
         voices = window.speechSynthesis.getVoices();
-        speech.voice = voices[0];
+        speech.voice = voices[1];
         speech.text = data;
+        speech.rate = 0.5;
         window.speechSynthesis.speak(speech);
         document.getElementById('userInput').scrollIntoView({ block: 'start', behavior: 'smooth' });
 

@@ -12,7 +12,7 @@
 }
 
 .carousel-caption {
-    color: black;
+    color: navy;
     font-size: 50px;
     font-weight: bold;
     font-family: 'Libre Bodoni', serif;
@@ -20,11 +20,11 @@
     margin-bottom: 200px;
 }
 
-.carousel-caption:hover {
-    background-color: lightsteelblue !important;
+/* .carousel-caption:hover {
+    background-color: wheat !important;
     opacity: 0.5;
     transition: background-color 0.5s !important;
-}
+} */
 
 /*Categories*/
 
