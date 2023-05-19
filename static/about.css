@@ -51,6 +51,14 @@ body, #body {
   text-align: center;
 }
 
+.desckgec{
+  font-size: 18px;
+  color: #3d32c0;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: left;
+}
+
 .icon {
   position: relative;
   bottom: 11px;

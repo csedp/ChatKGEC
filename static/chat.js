@@ -1,11 +1,11 @@
 function getBotResponse() {
     var rawText = $("#textInput").val();
-    var userHtml = '<p class="userText"><span>' + rawText + '</span></p>';
+    var userHtml = '<br><div class="userText"><div>' + rawText + '</div></div><br>';
     $("#textInput").val("");
     $("#chatbox").append(userHtml);
     document.getElementById('userInput').scrollIntoView({ block: 'start', behavior: 'smooth' });
     $.get("/getResponse", { msg: rawText }).done(function (data) {
-        var botHtml = '<p class="botText"><span>' + data + '</span></p>';
+        var botHtml = '<div class="botText"><div>' + data + '</div></div>';
         $("#chatbox").append(botHtml);
         let speech = new SpeechSynthesisUtterance();
         speech.lang = "en-IN";
