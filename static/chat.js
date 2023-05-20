@@ -11,11 +11,10 @@ function getBotResponse() {
         speech.lang = "en-IN";
         let voices = [];
         voices = window.speechSynthesis.getVoices();
-        speech.voice = voices[1];
         speech.text = data;
-        speech.rate = 0.75;
+        speech.rate = 0.95;
         speech.volume = 2;
-        speech.pitch = 1.5;
+        speech.pitch = 1;
         window.speechSynthesis.speak(speech);
         document.getElementById('userInput').scrollIntoView({ block: 'start', behavior: 'smooth' });
     });
