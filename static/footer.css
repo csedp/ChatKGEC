@@ -1,9 +1,7 @@
 footer {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color:gray; 
-    color:black; 
-    border-radius: 20px;
+    background-color:gray;
 }
 
 #e {
@@ -32,19 +30,7 @@ footer {
     transition: transform 0.5s;
 }
 
-a:hover{
-    text-decoration: none !important;
-    list-style: none;
-}
-
 .fn{
-    text-decoration: none;
-    list-style: none;
-    letter-spacing: 3px;
-    font-size: 1em;
-}
-
-.fn-1{
     text-decoration: none;
     list-style: none;
     letter-spacing: 3px;
@@ -60,18 +46,5 @@ a:hover{
 }
 
 .links:hover{
-    color: greenyellow !important;
-    transform: scale(1.1);
-    transition: transform 0.5s;
-}
-
-.communication{
-    text-decoration: none;
-    list-style: none;
-    letter-spacing: 3px;
-    font-size: 1em;
-}
-
-.communication:hover{
     color: greenyellow !important;
 }

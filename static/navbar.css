@@ -3,6 +3,7 @@
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
 }
+
 .navbar-brand:hover, .nav-link:hover{
     color: maroon !important;
     transform: scale(1.1);
@@ -14,13 +15,7 @@
     padding-bottom: 5px;
     padding-top: 5px;
 }
-.dropdown-menu{
-    text-align: center;
-}
-.dropdown-item:hover{
-    background-color: aquamarine;
-    color: maroon;
-}
+
 .nav-link{
     font-size: 20px;
     font-family: 'Cormorant Garamond', serif;
