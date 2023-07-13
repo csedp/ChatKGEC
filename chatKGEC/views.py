@@ -1,11 +1,14 @@
 """views.py"""
 from random import choice
+
 from django.http import HttpResponse
 from django.shortcuts import render
-from numpy import array
 from keras.models import load_model
 from nltk import word_tokenize
-from chatKGEC.chatKGEC import words, classes, data, lemmatizer
+from numpy import array
+
+from chatKGEC.chatKGEC import classes, data, lemmatizer, words
+
 # load model
 model = load_model('notebook/model.h5')
 
@@ -30,6 +33,8 @@ def bag_of_words(text, vocab):
 
 def pred_class(text, vocab, labels):
     """function to predict the class"""
+    if model is None: # Handle case where model is not defined
+        return None
     bow = bag_of_words(text, vocab)
     result = model.predict(array([bow]))[0]
     thresh = 0.2
@@ -45,6 +50,7 @@ def get_response(intents_list, intents_json):
     a random response from the intents.json file"""
     tag = intents_list[0]
     list_of_intents = intents_json["intents"]
+    result = ""
     for i in list_of_intents:
         if i["tag"] == tag:
             result = choice(i["responses"])

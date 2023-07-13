@@ -2,9 +2,11 @@
 from json import loads
 from random import shuffle
 from string import punctuation
+
 from nltk import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from numpy import array
+
 data = loads(open("dataset/intents.json", encoding="utf-8").read())
 lemmatizer = WordNetLemmatizer()
 # Each list to create
