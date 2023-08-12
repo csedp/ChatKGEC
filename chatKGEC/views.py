@@ -10,7 +10,7 @@ from numpy import array
 from chatKGEC.chatKGEC import classes, data, lemmatizer, words
 
 # load model
-model = load_model('notebook/model.h5')
+model = load_model('notebook/chatKGEC.h5')
 
 def clean_text(text):
     """function to tokenize and then lemmatize and
