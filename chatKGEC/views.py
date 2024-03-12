@@ -1,16 +1,18 @@
 """views.py"""
+
 from random import choice
 
 from django.http import HttpResponse
 from django.shortcuts import render
-from keras.models import load_model
+from keras.saving import load_model
 from nltk import word_tokenize
 from numpy import array
 
 from chatKGEC.chatKGEC import classes, data, lemmatizer, words
 
 # load model
-model = load_model('notebook/chatKGEC.h5')
+model = load_model("notebook/chatKGEC.keras")
+
 
 def clean_text(text):
     """function to tokenize and then lemmatize and
@@ -18,6 +20,7 @@ def clean_text(text):
     tokens = word_tokenize(text)
     tokens = [lemmatizer.lemmatize(word) for word in tokens]
     return tokens
+
 
 def bag_of_words(text, vocab):
     """function to get the bag of words and one hot
@@ -31,9 +34,10 @@ def bag_of_words(text, vocab):
                 bow[idx] = 1
     return array(bow)
 
+
 def pred_class(text, vocab, labels):
     """function to predict the class"""
-    if model is None: # Handle case where model is not defined
+    if model is None:  # Handle case where model is not defined
         return None
     bow = bag_of_words(text, vocab)
     result = model.predict(array([bow]))[0]
@@ -44,6 +48,7 @@ def pred_class(text, vocab, labels):
     for res in y_pred:
         return_list.append(labels[res[0]])
     return return_list
+
 
 def get_response(intents_list, intents_json):
     """taking the predicted class and returning
@@ -57,9 +62,11 @@ def get_response(intents_list, intents_json):
             break
     return result
 
+
 def index(req):
     """View function for home page of site."""
-    return render(req, 'index.html')
+    return render(req, "index.html")
+
 
 def predict(message):
     """View function for prediction page of site."""
@@ -68,16 +75,19 @@ def predict(message):
     print(result)
     return result
 
+
 def about(req):
     """View function for about page of site."""
-    return render(req, 'about.html')
+    return render(req, "about.html")
+
 
 def chat(req):
     """View function for chat page of site."""
-    return render(req, 'chat.html')
+    return render(req, "chat.html")
+
 
 def getResponse(request):
     """Function for getting response from the model."""
-    msg = request.GET.get('msg')
+    msg = request.GET.get("msg")
     dat = predict(msg)
     return HttpResponse(dat)
