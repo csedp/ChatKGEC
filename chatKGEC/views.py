@@ -11,7 +11,7 @@ from numpy import array
 from chatKGEC.chatKGEC import classes, data, lemmatizer, words
 
 # load model
-model = load_model("notebook/chatKGEC.keras")
+model = load_model("Model/chatKGEC.keras")
 
 
 def clean_text(text):
