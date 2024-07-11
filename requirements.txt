@@ -1,5 +1,5 @@
-Django==5.0.3
-keras==3.0.5
+Django==5.0.7
+keras==3.3.3
 nltk==3.8.1
 numpy==1.26.4
-tensorflow==2.16.1
+tensorflow==2.16.2
