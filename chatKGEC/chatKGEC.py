@@ -1,23 +1,30 @@
-'''chatKGEC is a chatbot that can be used to answer queries related to KGEC'''
+"""chatKGEC is a chatbot that can be used to answer queries related to KGEC"""
+
 from json import loads
 from random import shuffle
 from string import punctuation
 
+import nltk
 from nltk import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from numpy import array
 
+nltk.download("punkt")
+nltk.download("wordnet")
+nltk.download("omw-1.4")
+nltk.download("punkt_tab")
+
 data = loads(open("dataset/intents.json", encoding="utf-8").read())
 lemmatizer = WordNetLemmatizer()
 # Each list to create
-words = [] # tokenized words of sentences in patterns
-classes = [] # tags
-doc_X = [] # patterns
-doc_y = [] # tags ocurring number of times wrt patterns
+words = []  # tokenized words of sentences in patterns
+classes = []  # tags
+doc_X = []  # patterns
+doc_y = []  # tags ocurring number of times wrt patterns
 
-'''Looping through all the intents and tokenizing each patterns and
+"""Looping through all the intents and tokenizing each patterns and
 appending tokens to words, patterns and associated tag to
-their associated list'''
+their associated list"""
 for intent in data["intents"]:
     for pattern in intent["patterns"]:
         tokens = word_tokenize(pattern)
@@ -29,7 +36,9 @@ for intent in data["intents"]:
         classes.append(intent["tag"])
 
 
-words = [lemmatizer.lemmatize(word.lower()) for word in words if word not in punctuation]
+words = [
+    lemmatizer.lemmatize(word.lower()) for word in words if word not in punctuation
+]
 
 words = sorted(set(words))
 classes = sorted(set(classes))
